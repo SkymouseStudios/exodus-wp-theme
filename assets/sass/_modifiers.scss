@@ -1,0 +1,33 @@
+.el--small-text-left {
+	text-align: left;
+}
+.el--small-text-center {
+	text-align: center;
+}
+.el--small-text-right {
+	text-align: right;
+}
+
+@include break($medium) {
+	.el--medium-text-left {
+		text-align: left;
+	}
+	.el--medium-text-center {
+		text-align: center;
+	}
+	.el--medium-text-right {
+		text-align: right;
+	}
+}
+
+@include break($large) {
+	.el--large-text-left {
+		text-align: left;
+	}
+	.el--large-text-center {
+		text-align: center;
+	}
+	.el--large-text-right {
+		text-align: right;
+	}	
+}

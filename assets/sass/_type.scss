@@ -1,0 +1,310 @@
+/* Typography resets */
+html, body {
+    font-size: 16px;
+}
+
+body {
+    font-family: $body-font-family;
+    line-height: 1.875;
+    font-size: 1em;
+}
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Default Link Styles */
+a {
+    color: $orange;
+    text-decoration: none;
+    line-height: inherit;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    color: $orange;
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+/* Default paragraph styles */
+p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: em($base-font-size);
+    margin-bottom: 1em;
+    text-rendering: optimizeLegibility;
+    color: inherit;
+}
+
+ul, li {
+    font-size: em($base-font-size);
+}
+
+p.lead {
+    font-size: 1.21875em;
+    // line-height: 1.6;
+}
+
+p aside {
+    font-size: 0.875em;
+    // line-height: 1.35;
+    font-style: italic;
+}
+
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family;
+    font-weight: bold;
+    font-style: normal;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+    margin: 0.15em 0;
+    line-height: 1;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 60%;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    line-height: 1.25em;
+}
+
+h1 {
+    font-size: 1.5em;
+    @include break($medium) {
+        font-size: 3.052em;
+    }
+}
+
+h2 {
+     font-size: 1.5em;
+    @include break($medium) {
+        font-size: 2em;
+    }
+}
+
+h3 {
+    font-size: 1.25em;
+    @include break($medium) {
+        font-size: 1.5em;
+    }
+}
+
+h4 {
+    font-size: 1em;
+    @include break($medium) {
+        font-size: 1.1em;
+    }
+}
+
+hr {
+    border: solid $gray;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 1em 0 1.1875em;
+    height: 0;
+}
+
+/* Helpful Typography Defaults */
+em,
+i {
+    font-style: italic;
+    line-height: inherit;
+}
+
+strong,
+b {
+    font-weight: bold;
+    line-height: inherit;
+}
+
+small {
+    font-size: 60%;
+    line-height: inherit;
+}
+
+/* Lists */
+ul,
+ol,
+dl {
+    font-size: $base-font-size;
+    // line-height: 1.6;
+    margin-bottom: 1.25em;
+    list-style-position: outside;
+    font-family: inherit;
+    color: inherit;
+}
+
+ul {
+    margin-left: 1.1em;
+}
+
+ul.no-bullet {
+    margin-left: 0;
+}
+
+ul.no-bullet li ul,
+ul.no-bullet li ol {
+    margin-left: 1.25em;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+/* Unordered Lists */
+nav ul {
+    margin: 0;
+}
+
+ul li ul,
+ul li ol {
+    margin-left: 1.25em;
+    margin-bottom: 0;
+}
+
+ul.square li ul, ul.circle li ul, ul.disc li ul {
+    list-style: inherit;
+}
+
+ul.square {
+    list-style-type: square;
+    margin-left: 1.1em;
+}
+
+ul.circle {
+    list-style-type: circle;
+    margin-left: 1.1em;
+}
+
+ul.disc {
+    list-style-type: disc;
+    margin-left: 1.1em;
+}
+
+ul.no-bullet {
+    list-style: none;
+}
+
+/* Ordered Lists */
+ol {
+    margin-left: 1.4em;
+}
+
+ol li ul,
+ol li ol {
+    margin-left: 1.25em;
+    margin-bottom: 0;
+}
+
+/* Definition Lists */
+dl dt {
+    margin-bottom: 0.3em;
+    font-weight: bold;
+}
+
+dl dd {
+    margin-bottom: 0.75em;
+}
+
+/* Abbreviations */
+abbr,
+acronym {
+    text-transform: uppercase;
+    font-size: 90%;
+    color: #222222;
+    cursor: help;
+}
+
+abbr {
+    text-transform: none;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted #DDDDDD;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 0 0 1.25em;
+    padding: 0.5625em 1.25em 0 1.1875em;
+    border-left: 1px solid #DDDDDD;
+}
+
+blockquote cite {
+    display: block;
+    font-size: 0.8125em;
+    color: #555555;
+}
+
+blockquote cite:before {
+    content: "\2014 \0020";
+}
+
+blockquote cite a,
+blockquote cite a:visited {
+    color: #555555;
+}
+
+blockquote,
+blockquote p {
+    // line-height: 1.6;
+    color: #6f6f6f;
+}
+
+/* Microformats */
+.vcard {
+    display: inline-block;
+    margin: 0 0 1.25em 0;
+    border: 1px solid #DDDDDD;
+    padding: 0.625em 0.75em;
+}
+
+.vcard li {
+    margin: 0;
+    display: block;
+}
+
+.vcard .fn {
+    font-weight: bold;
+    font-size: 0.9375em;
+}
+
+.vevent .summary {
+    font-weight: bold;
+}
+
+.vevent abbr {
+    cursor: default;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    padding: 0 0.0625em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

@@ -1,0 +1,147 @@
+
+.pricing-tiers-introduction {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.product-tiers {
+
+  .product-tier {
+
+    background: #fff;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 0;
+    padding-right: 0;
+
+    .header-image {
+
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      padding: 2em;
+      height:180px;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+
+      img {
+        width: 170px;
+      }
+
+      .img-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align:center; /* Align center inline elements */
+        font: 0/0 a;
+      }
+
+      .img-container:before {
+        content: ' ';
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+      }
+
+      .img-container img {
+        vertical-align: middle;
+        display: inline-block;
+      }
+
+    }
+
+    .tier-body {
+      background-color: white;
+      border: 1px solid #e5e5e5;
+      padding: 0.8em 2em 2em;
+      width: 100%;
+
+      .tier-price {
+        text-align: center;
+        font-size: 2em;
+        line-height: 1em;
+        margin-top: 0.35em;
+      }
+
+      .tier-description {
+        text-align: center;
+        /*margin-top: -1.5em;*/
+        /*margin-bottom: -1em;*/
+      }
+
+      .tier-description {
+
+      }
+
+      p {
+        margin-bottom: .2em;
+        line-height: 1.4em;
+      }
+
+      ul {
+        list-style-position: outside;
+        line-height: 1.5em;
+        margin: 1.25em 0 -.25em 1.7em;
+
+        li {
+          margin-bottom: .1em;
+        }
+      }
+
+    }
+
+    .learn-more {
+
+      width: 100%;
+      text-align: center;
+      background-color: #e5e5e5;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      height: 4em;
+      line-height: 4em;
+
+      a {
+        display: block;
+        width: 100%;
+        color: #ef643a;
+        font-weight: bold;
+
+      }
+
+    }
+
+  }
+
+}
+
+
+@media screen and (max-width: 1019px) {
+
+  .product-tiers {
+    margin: 0 2em;
+    .product-tier {
+      margin: 0 0 2em 0;
+      padding: 0;
+    }
+  }
+
+}
+
+@media screen and (min-width : 1026px ) {
+  .aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .price-tier {
+    align-self: flex-end;
+  }
+}

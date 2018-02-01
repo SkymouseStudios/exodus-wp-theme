@@ -1,0 +1,192 @@
+.product-detail {
+
+  padding-top: 74px;
+  display: flex;
+
+  .columns {
+    flex: 1;
+  }
+
+  .nl-accordion{
+
+    width: 100%;
+    background-color: transparent;
+
+    label.nl-label {
+      display: block;
+      font-size: 1em;
+      line-height: 1em;
+      background-color: transparent;
+      border-bottom: 1px solid #ccc;
+      color: #231F20;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    > ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        overflow:hidden;
+        margin:0 0 0px;
+        label.nl-label {
+          padding:.5em;
+        }
+        .nl-content {
+          height:0px;
+          border-top:0;
+          padding:0 10px;
+          -webkit-transition: all .1s ease-out;
+          -moz-transition: all .1s ease-out;
+          transition: all .1s ease-out;
+        }
+      }
+    }
+
+    [type="radio"].nl-radio,
+    [type="checkbox"].nl-checkbox {
+      display:none;
+      &:checked ~ label.nl-label {
+        border-bottom: 0;
+      }
+      &:checked ~ label.nl-label ~ .nl-content {
+        height:100%;
+        padding-left:15px;
+        padding-bottom:10px;
+        overflow:auto;
+      }
+    }
+
+  }
+
+}
+
+
+
+.checkbox-link {
+  text-decoration: underline;
+  color:white;
+  font-weight: 300;
+}
+
+.pricing-description {
+  background-color: #F7F6F2;
+  /*height:90vh;
+  max-height: 600px;*/
+  /*margin-top:-50px;*/
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.product-detail-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width : 50.000em ) {
+  .pricing-description {
+    margin-top:0px
+  }
+}
+
+.plan-description-intro {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.white-email-signup {
+  padding-top:10em;
+  padding-bottom: 5em;
+}
+
+.price-parent {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.price-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.price-container {
+  .overview {
+    margin-top: 115px;
+  }
+}
+
+.alt-product-link {
+  font-size: .8em;
+  color: white;
+  padding-right: 1em;
+}
+
+.price-title {
+  color: white;
+  padding-top: .2em;
+  margin-bottom: -.3em;
+}
+
+.price-figure {
+  font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+  font-weight: 200;
+  color: white;
+  padding-bottom: .3em;
+}
+
+
+
+@media screen and (max-width : 800px ) {
+
+  .product-detail {
+    display: block;
+    padding-top: 64px;
+    .columns {
+      width: 100%;
+      float: none;
+    }
+  }
+
+  .price-container .overview {
+    margin-top: 55px;
+    padding-bottom: 40px;
+  }
+
+  .plan-description-intro {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding: 0 !important;
+    width: auto;
+
+    #myAccordion .nl-label {
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    #myAccordion .nl-content {
+      padding-left: 0;
+    }
+
+  }
+
+}
+
+@media screen and (max-width : 640px ) {
+  .product-detail {
+    padding-top: 40px;
+  }
+}
+
+.product-images {
+  display: flex;
+  margin-top: 20px;  
+
+  a {
+    width: 250px;
+    display: block;
+    padding: 10px;
+  }
+}

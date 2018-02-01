@@ -1,0 +1,264 @@
+
+.navigation-wrap {
+
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+
+  nav.utility-navigation {
+
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 1.9em;
+    margin: 0;
+    padding: 2px;
+    font-size: 0.8em;
+    background: #e6e6e6;
+
+    ul {
+
+      margin-top: 0px;
+      line-height: 1.4em;
+
+      li {
+        display: inline;
+        a {
+          font-size: 0.8em;
+          color: #231F20;
+        }
+      }
+
+      li.secondary {
+        // "Brought to you by Those Catholic Men"
+        float: left;
+        padding-left: 4em;
+      }
+
+      li.primary {
+        // Right aligned items, "Contact Us"
+        float: right;
+        padding-right: 2em;
+      }
+
+    }
+
+  }
+
+  header {
+
+    padding-top: 0px;
+    margin-top: -10px;
+    position: relative;
+    width: 100%;
+    background: #231F20;
+    height: 50px;
+    line-height: 50px;
+
+    ul.primary-navigation {
+
+      display: inline;
+      list-style: none;
+
+      .exodus-logo img {
+        display: block;
+        position: absolute;
+        height: 69px;
+        top: 0;
+        padding-left: 4em;
+        z-index: 2;
+      }
+
+      .links {
+
+        display: block;
+
+        li.highlight {
+          background-color: #EF643B;
+          padding-left: 2em;
+        }
+
+        li.item {
+
+          float: right;
+          position: relative;
+          bottom: 50px;
+          height: 50px;
+          padding-right: 2em;
+
+          a {
+            text-decoration: none;
+            color: white;
+          }
+
+        }
+
+      }
+
+    }
+
+    .mobile-menu-icon {
+
+      display: none;
+      position: relative;
+      z-index: 21;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      button {
+        position: absolute;
+        display: inline;
+        background: none;
+        height: 40px;
+        top: 0;
+        right: 0;
+        color:#fff;
+        border:0;
+        font-weight: bold;
+        cursor:pointer;
+        outline:none;
+        opacity: 0.5;
+      }
+
+      .hamburger{
+        line-height: 31px;
+        padding: 0px 10px 0px 5px;
+        font-size: 23px;
+      }
+      .cross{
+        padding: 4px 38px 0 0;
+        font-size:3em;
+        line-height: 66px;
+      }
+
+    }
+
+  }
+
+  /* Mobile */
+  .mobile-navigation {
+
+    position: relative;
+    display: none;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+
+    ul {
+
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: block;
+        padding: 10px 0 10px 0;
+        border-bottom: #222A34 1px solid;
+        background: #2C3942;
+
+        &:hover {
+          display: block;
+          background:#222A34;
+          padding: 10px 0 10px 0;
+          border-bottom:#222A34 1px solid;
+        }
+
+        a {
+          text-decoration:none;
+          margin: 0px;
+          color: #fff;
+          padding: 3px 0;
+          &:hover {
+            color: #fff;
+            text-decoration:none;
+          }
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          text-decoration: none;
+          color: white;
+        }
+      }
+
+      .navSpecial {
+        z-index:1;
+        font-weight: bold;
+        width: 100%;
+        background: #EF643B;
+        position: absolute;
+        text-align: center;
+        border-bottom: #EF643B;
+
+        &:hover {
+          z-index: 1;
+          font-weight: bold;
+          width: 100%;
+          background: #EF5C31;
+          position: absolute;
+          text-align: center;
+          border-bottom: #EF5C31;
+        }
+      }
+
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .navigation-wrap {
+    nav.utility-navigation {
+      ul {
+        li.secondary {
+          padding-left: 2em;
+        }
+        li.primary {
+          padding-right: 1em;
+        }
+      }
+    }
+    header {
+
+      height: 40px;
+      line-height: 40px;
+
+      .mobile-menu-icon {
+        display: block;
+      }
+      ul.primary-navigation {
+        .exodus-logo img {
+          height: 55px;
+          padding-left: 2em;
+        }
+        .links {
+          display: none;
+        }
+      }
+    }
+  }
+
+} // End <800px
+
+@media screen and (max-width: 640px) {
+
+  .navigation-wrap {
+    nav.utility-navigation {
+      display: none;
+    }
+    header {
+      margin-top: 0;
+    }
+  }
+
+} // End <640px
