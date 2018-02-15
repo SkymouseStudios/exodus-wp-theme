@@ -9,6 +9,9 @@
                     <img src="<?=$plan->overview_image;?>">
                 </div>
             </div>
+            <div class="img-container">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/<?=$plan->name;?>.jpg">
+                </div>
             <div class="tier-body">
                 <p class="tier-price">$<?=round($plan->price);?></p>
                 <?=$plan->short_description;?>

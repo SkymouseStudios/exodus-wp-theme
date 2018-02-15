@@ -40,19 +40,8 @@ $product_properties = exodus_get_custom_field('product_properties', $id);
                 <div>
                     <h1 class="price-title"><?=$title;?></h1>
                     <h1 class="price-figure">$<?=round($price);?></h1>
-				  
-				  <div class="yotpo bottomLine" 
-                            data-appkey="hsgHGpf7bFWFWEBjGWmIJPyHIpfVCBT2xtPt7xax" 
-                            data-domain="https://exodus90.com" 
-                            data-product-id="Id of the product" 
-                            data-product-models="Products model information" 
-                            data-name="Product Title" 
-                            data-url="<?php echo $shopify_product_slug; ?>"
-                            >
-                    </div>
-
-                    <script type="text/javascript"> (functione(){var e=document.createElement("script");e.type="text/javascript",e.async=tr ue,e.src="//staticw2.yotpo.com/hsgHGpf7bFWFWEBjGWmIJPyHIpfVCBT2xtPt7xax/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore (e,t)})();
-                    </script>
+                    
+                    <div class="yotpo"></div>
                 </div>
                 <?php if(boolval($remote_available)) { ?>
                 <div style="display: block;">
@@ -60,8 +49,25 @@ $product_properties = exodus_get_custom_field('product_properties', $id);
                 </div>
                 <?php } ?>
                 <div>
-                    <?php echo do_shortcode('[shopify embed_type="product" shop="exodus-90.myshopify.com" product_handle="'.$shopify_product_slug.'" show="button-only"]'); ?>
+                    <?php
+                        global $post;
+                        $post_slug=$post->post_name;
+
+                        if ( $post_slug == 'digital' )
+                            get_template_part( 'partial-shopify-digital');
+
+                        elseif ( $post_slug == 'digital-print-plan' ) {
+                            get_template_part( 'partial-shopify-digital-print-plan');
+                        }
+
+                        elseif ( $post_slug == 'premium-plan' ) {
+                            get_template_part( 'partial-shopify-premium-plan');
+                        }
+                    ?>
                 </div>
+                <p style="margin-top: 20px; color:white;" class="subscribe-callout">
+                    IMPORTANT: When checking out, make sure you check “Keep me up to date on news and exclusive offers.” That’s how we deliver your Exodus 90 program!
+                </p>
             </div>
         </div>
     </div>
