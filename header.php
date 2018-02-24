@@ -16,17 +16,27 @@
   <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/favicon.png" type="image/png">
   <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/favicon.png" type="image/png">
   <?php wp_head(); ?>
+
+  <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KKVJL4Q');</script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body <?php body_class(); ?>>
+  <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKVJL4Q"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div class="page-wrap">
 
       <div class="navigation-wrap">
           <nav class="utility-navigation">
               <ul>
                   <li class="secondary"><a href="http://thosecatholicmen.com/" target="_blank" title="Those Catholic Men" class="tcm" style="color: #231F20;">Brought to you by Those Catholic Men</a></li>
-                  <!--<li class="primary"><a href="#" id="cart-header-link" class="utility-button" style="color: #231F20;"><em class="material-icons" style="font-size: .8em; color: #231F20;">shopping_cart</em>Cart</a></li>
-                  <li class="primary"><a href="#/my-account" class="utility-button" style="color: #231F20;">My Account</a></li>-->
                   <li class="primary"><a href="/contact" class="utility-button" style="color: #231F20;">Contact Us</a></li>
 
               </ul>

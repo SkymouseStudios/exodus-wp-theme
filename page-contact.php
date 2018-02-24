@@ -22,8 +22,6 @@ get_header(); ?>
 
             <div class="row">
                 <div class="small-12 medium-4 columns">
-                    <h4>Support</h4>
-                    <a href="https://thosecatholicmen.desk.com/">Fraternal Support Center</a><br>
                     <a href="/support">Support Articles</a>
                     <hr>
                     <h4>Email</h4>
