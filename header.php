@@ -36,7 +36,7 @@
       <div class="navigation-wrap">
           <nav class="utility-navigation">
               <ul>
-                  <li class="secondary"><a href="http://thosecatholicmen.com/" target="_blank" title="Those Catholic Men" class="tcm" style="color: #231F20;">Brought to you by Those Catholic Men</a></li>
+                  <li class="secondary"><a href="https://thosecatholicmen.com/" target="_blank" title="Those Catholic Men" class="tcm" style="color: #231F20;">Brought to you by Those Catholic Men</a></li>
                   <li class="primary"><a href="/contact" class="utility-button" style="color: #231F20;">Contact Us</a></li>
 
               </ul>
@@ -50,7 +50,7 @@
                   <ul class="primary-navigation">
                       <li>
                           <a href="/" title="Exodus 90">
-                              <span class="exodus-logo"><img src="/wp-content/themes/exodus-wp-theme/assets/img/logo.svg" alt="Exodus 90"></span>
+                              <span class="exodus-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.svg" alt="Exodus 90"></span>
                           </a>
                       </li>
                       <div class="links">

@@ -49,45 +49,318 @@ get_header(); ?>
 				</div>
 			</div>
 
-		<!-- MEDIA FILES TO DOWNLOAD -->
-			<div class="exodus-support-articles">
-				<h3 class="text-center">Individual Media Files</h3>
-
-				
-
-				
-				<div class="row medium-collapse">
-					<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
-						<?php 
-
-							$images = get_field('media_file');
-							$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
-
-							if( $images ): ?>
-							    <ul>
-							        <?php foreach( $images as $image ): ?>
-							            <li class="small-12 medium-4 medium-uncentered columns">
-			            					<div class="support-article-wrapper">
-							            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
-							            
-							            <h4><?php echo $image['title']; ?></h4>
-
-							         
-										<?php echo $image['caption']; ?>
-										<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
-							        	<?php endforeach; ?>
-							        </div>
-							        </li>
-							    </ul>
-						<?php endif; ?>
-
-			
-
-
+		
+	<!-- Block 1 -->
+	<?php if( have_rows('media_files') ): ?>
+		<?php while( have_rows('media_files') ): the_row(); 
+			$gallery = get_sub_field('ads');
+			$size = 'thumbnail';
+			?>
+				<div class="exodus-support-articles">
+					<div class="row medium-collapse">
+						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
+							<h3>Ads</h3>
+							<hr>
+							<?php 
+								if( $gallery ): ?>
+								    <ul>
+								        <?php foreach( $gallery as $image ): ?>
+								            <li class="small-12 medium-4 medium-uncentered columns">
+				            					<div class="support-article-wrapper">
+								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+								            
+								            <h4><?php echo $image['title']; ?></h4>
+								         
+											<?php echo $image['caption']; ?>
+											<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
+								        	<?php endforeach; ?>
+								        </div>
+								        </li>
+								    </ul>
+							<?php endif; ?>
+						</div>
 					</div>
 				</div>
-			</div>
+			<?php 
+				endwhile;
+				endif;
+			
+			?>
 		</div>
+	<!-- END Block 1 -->
+
+	<!-- Block 2 -->
+	<?php if( have_rows('media_files') ): ?>
+		<?php while( have_rows('media_files') ): the_row(); 
+			$gallery = get_sub_field('bulletin_ads');
+			$size = 'thumbnail';
+			?>
+				<div class="exodus-support-articles">
+					<div class="row medium-collapse">
+						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
+							<h3>Bulletin Ads</h3>
+							<hr>
+							<?php 
+								if( $gallery ): ?>
+								    <ul>
+								        <?php foreach( $gallery as $image ): ?>
+								            <li class="small-12 medium-4 medium-uncentered columns">
+				            					<div class="support-article-wrapper">
+								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+								            
+								            <h4><?php echo $image['title']; ?></h4>
+								         
+											<?php echo $image['caption']; ?>
+											<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
+								        	<?php endforeach; ?>
+								        </div>
+								        </li>
+								    </ul>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			<?php 
+				endwhile;
+				endif;
+			
+			?>
+		</div>
+	<!-- END Block 2 -->
+
+	<!-- Block 3 -->
+	<?php if( have_rows('media_files') ): ?>
+		<?php while( have_rows('media_files') ): the_row(); 
+			$gallery = get_sub_field('logos');
+			$size = 'thumbnail';
+			?>
+				<div class="exodus-support-articles">
+					<div class="row medium-collapse">
+						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
+							<h3>Logos</h3>
+							<hr>
+							<?php 
+								if( $gallery ): ?>
+								    <ul>
+								        <?php foreach( $gallery as $image ): ?>
+								            <li class="small-12 medium-4 medium-uncentered columns">
+				            					<div class="support-article-wrapper">
+								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+								            
+								            <h4><?php echo $image['title']; ?></h4>
+								         
+											<?php echo $image['caption']; ?>
+											<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
+								        	<?php endforeach; ?>
+								        </div>
+								        </li>
+								    </ul>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			<?php 
+				endwhile;
+				endif;
+			
+			?>
+		</div>
+	<!-- END Block 3 -->
+
+	<!-- Block 4 -->
+	<?php if( have_rows('media_files') ): ?>
+		<?php while( have_rows('media_files') ): the_row(); 
+			$gallery = get_sub_field('posters');
+			$size = 'thumbnail';
+			?>
+				<div class="exodus-support-articles">
+					<div class="row medium-collapse">
+						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
+							<h3>Posters</h3>
+							<hr>
+							<?php 
+								if( $gallery ): ?>
+								    <ul>
+								        <?php foreach( $gallery as $image ): ?>
+								            <li class="small-12 medium-4 medium-uncentered columns">
+				            					<div class="support-article-wrapper">
+								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+								            
+								            <h4><?php echo $image['title']; ?></h4>
+								         
+											<?php echo $image['caption']; ?>
+											<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
+								        	<?php endforeach; ?>
+								        </div>
+								        </li>
+								    </ul>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			<?php 
+				endwhile;
+				endif;
+			
+			?>
+		</div>
+	<!-- END Block 4 -->
+
+	<!-- Block 5 -->
+	<?php if( have_rows('media_files') ): ?>
+		<?php while( have_rows('media_files') ): the_row(); 
+			$gallery = get_sub_field('product_photos');
+			$size = 'thumbnail';
+			?>
+				<div class="exodus-support-articles">
+					<div class="row medium-collapse">
+						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
+							<h3>Product Photos</h3>
+							<hr>
+							<?php 
+								if( $gallery ): ?>
+								    <ul>
+								        <?php foreach( $gallery as $image ): ?>
+								            <li class="small-12 medium-4 medium-uncentered columns">
+				            					<div class="support-article-wrapper">
+								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+								            
+								            <h4><?php echo $image['title']; ?></h4>
+								         
+											<?php echo $image['caption']; ?>
+											<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
+								        	<?php endforeach; ?>
+								        </div>
+								        </li>
+								    </ul>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			<?php 
+				endwhile;
+				endif;
+			
+			?>
+		</div>
+	<!-- END Block 5 -->
+
+	<!-- Block 6 -->
+	<?php if( have_rows('media_files') ): ?>
+		<?php while( have_rows('media_files') ): the_row(); 
+			$gallery = get_sub_field('screenshots');
+			$size = 'thumbnail';
+			?>
+				<div class="exodus-support-articles">
+					<div class="row medium-collapse">
+						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
+							<h3>Screenshots</h3>
+							<hr>
+							<?php 
+								if( $gallery ): ?>
+								    <ul>
+								        <?php foreach( $gallery as $image ): ?>
+								            <li class="small-12 medium-4 medium-uncentered columns">
+				            					<div class="support-article-wrapper">
+								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+								            
+								            <h4><?php echo $image['title']; ?></h4>
+								         
+											<?php echo $image['caption']; ?>
+											<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
+								        	<?php endforeach; ?>
+								        </div>
+								        </li>
+								    </ul>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			<?php 
+				endwhile;
+				endif;
+			
+			?>
+		</div>
+	<!-- END Block 6 -->
+
+	<!-- Block 7 -->
+	<?php if( have_rows('media_files') ): ?>
+		<?php while( have_rows('media_files') ): the_row(); 
+			$gallery = get_sub_field('social_media_graphics');
+			$size = 'thumbnail';
+			?>
+				<div class="exodus-support-articles">
+					<div class="row medium-collapse">
+						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
+							<h3>Social Media Graphics</h3>
+							<hr>
+							<?php 
+								if( $gallery ): ?>
+								    <ul>
+								        <?php foreach( $gallery as $image ): ?>
+								            <li class="small-12 medium-4 medium-uncentered columns">
+				            					<div class="support-article-wrapper">
+								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+								            
+								            <h4><?php echo $image['title']; ?></h4>
+								         
+											<?php echo $image['caption']; ?>
+											<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
+								        	<?php endforeach; ?>
+								        </div>
+								        </li>
+								    </ul>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			<?php 
+				endwhile;
+				endif;
+			
+			?>
+		</div>
+	<!-- END Block 7 -->
+
+	<!-- Block 8 -->
+	<?php if( have_rows('media_files') ): ?>
+		<?php while( have_rows('media_files') ): the_row(); 
+			$gallery = get_sub_field('videos');
+			$size = 'thumbnail';
+			?>
+				<div class="exodus-support-articles">
+					<div class="row medium-collapse">
+						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
+							<h3>Videos</h3>
+							<hr>
+							<?php 
+								if( $gallery ): ?>
+								    <ul>
+								        <?php foreach( $gallery as $image ): ?>
+								            <li class="small-12 medium-4 medium-uncentered columns">
+				            					<div class="support-article-wrapper">
+								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+								            
+								            <h4><?php echo $image['title']; ?></h4>
+								         
+											<?php echo $image['caption']; ?>
+											<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
+								        	<?php endforeach; ?>
+								        </div>
+								        </li>
+								    </ul>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			<?php 
+				endwhile;
+				endif;
+			
+			?>
+		</div>
+	<!-- END Block 8 -->
 
 	</article>
 <?php endwhile; ?>
