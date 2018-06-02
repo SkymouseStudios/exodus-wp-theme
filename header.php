@@ -55,8 +55,9 @@
                       </li>
                       <div class="links">
                           <li class="item highlight"><a href="/get-started">Get Started &raquo;</a></li>
-                          <li class="item"><a href="/what-does-day-91-look-like">Day 91</a></li>
+                          <li class="item"><a href="/media">Media</a></li>
                           <li class="item"><a href="/support">Support</a></li>
+                          <li class="item"><a href="/what-does-day-91-look-like">Testimonials</a></li>
                           <li class="item"><a href="/about">About</a></li>
                       </div>
                   </ul>
@@ -66,6 +67,7 @@
               <ul>
                   <a href="/about"><li>ABOUT</li></a>
                   <a href="/support"><li>SUPPORT</li></a>
+                  <a href="/media"><li>MEDIA</li></a>
                   <a href="/what-does-day-91-look-like"><li>DAY 91</li></a>
                   <a href="/get-started"><li class="navSpecial">GET STARTED »</li></a>
               </ul>

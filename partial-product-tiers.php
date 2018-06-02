@@ -16,6 +16,8 @@
                 <p class="tier-price">$<?=round($plan->price);?></p>
                 <?=$plan->short_description;?>
             </div>
+            <?php $thing = $plan->name;  ?>
+            <div style="text-align: center; background: #222b33; padding-bottom: 20px;"><?php get_template_part( 'partial-shopify', $thing ); ?></div>
             <div class="learn-more"><a href="/product/<?=$plan->name;?>">Learn More &raquo;</a></div>
         </div>
         <?php } ?>

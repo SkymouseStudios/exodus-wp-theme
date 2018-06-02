@@ -37,7 +37,7 @@
         options: {
   "product": {
     "variantId": "all",
-    "width": "240px",
+    //"width": "100%",
     "contents": {
       "img": false,
       "imgWithCarousel": false,
@@ -53,7 +53,7 @@
     },
     "styles": {
       "product": {
-        "text-align": "left",
+        "text-align": "center",
         "@media (min-width: 601px)": {
           "max-width": "100%",
           "margin-left": "0",
@@ -61,7 +61,7 @@
         }
       },
       "button": {
-        "background-color": "#000000",
+        "background-color": "#222b33",
         "color": "#fdfdfd",
         "font-size": "18px",
         "padding-top": "17px",

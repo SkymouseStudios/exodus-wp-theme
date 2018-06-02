@@ -14,9 +14,11 @@ get_header(); ?>
             <div class="row">
                 <div class="post-header medium-6 medium-offset-3 columns">
                     <h1 class="post-title">Contact Us</h1>
-                    <div class="post-subline">
-                        <p>Any questions before you get started? Send 'em over to us and we'll be back to you within a day.</p>
-                    </div>
+                    <?php if ($subline = exodus_get_custom_field('subline')): ?>
+                        <div class="post-subline">
+                            <?php echo $subline; ?>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div>
 

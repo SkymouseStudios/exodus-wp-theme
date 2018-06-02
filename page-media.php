@@ -39,13 +39,16 @@ get_header(); ?>
 				<img class="make-bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand-mark-circle.png" alt="" />
 				<div class="small-10 small-offset-1 medium-6 medium-offset-3 columns">
 					<div id="ask-a-question" class="pad-top pad-bottom">
-						
-						<h3>It all starts with you.</h3>
-						<p>We hope you've been changed, but the journey of exodus is only the beginning. Once we are freed, we are called free others around us. Sharing with your friends, family, workplace and parish are all ways you can make the difference. </p>
-						<p>Here are some free resources to help you do just that!</p>
-
-						<a class="button" href="https://exodus90.com/wp-content/uploads/2018/03/Exodus90-Media-Pack-3-28-2018.zip">Download Everything!</a>
+						<?php the_content(); ?>
 					</div>
+				</div>
+			</div>
+
+			<div class="row uncontained medium-collapse small-collapes ninety-bg">
+				<div class="small-10 small-offset-1 medium-6 medium-offset-3 columns">
+					
+						<?php the_field('media_description');  ?>
+			
 				</div>
 			</div>
 
