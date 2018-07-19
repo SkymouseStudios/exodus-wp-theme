@@ -52,32 +52,54 @@ get_header(); ?>
 				</div>
 			</div>
 
+			<div class="row uncontained medium-collapse small-collapes ninety-bg">
+				<div class="small-10 medium-9 medium-offset-1 columns" style="text-align: center;">
+						<div style="margin: 20px"></div>
+						<a class="button button-orange button-larger" href="#Ads">Ads</a>
+						<a class="button button-orange button-larger" href="#Bulletins">Bulletins</a>
+						<a class="button button-orange button-larger" href="#Logos">Logos</a>
+						<div style="margin: 20px"></div>
+						<a class="button button-orange button-larger" href="#Posters">Posters</a>
+						<a class="button button-orange button-larger" href="#ProductPhotos">Product Photos</a>
+						<a class="button button-orange button-larger" href="#Screenshots">Screenshots</a>
+						<div style="margin: 20px"></div>
+						<a class="button button-orange button-larger" href="#SocialMedia">Social Media</a>
+						<a class="button button-orange button-larger" href="#Video">Video</a>
+				</div>
+			</div>
+
+
 		
-	<!-- Block 1 -->
+	<!-- Block 1 : Ads -->
 	<?php if( have_rows('media_files') ): ?>
 		<?php while( have_rows('media_files') ): the_row(); 
 			$gallery = get_sub_field('ads');
-			$size = 'thumbnail';
+			$size = 'medium';
 			?>
 				<div class="exodus-support-articles">
 					<div class="row medium-collapse">
 						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
-							<h3>Ads</h3>
-							<hr>
+							<div class="small-12 medium-3 columns">
+								<h3 id="Ads">Ads</h3>
+								<p>These Exodus 90 ads are perfect for printing in your bulletin, adding to your church email newsletter or placing on your parish website.</p>
+								<hr>
+								<a class="button button-orange button-larger" href="https://exodus90.com/wp-content/uploads/2018/07/Ads.zip">Download All</a>
+							</div>
+							
 							<?php 
 								if( $gallery ): ?>
-								    <ul>
+								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li class="small-12 medium-4 medium-uncentered columns">
-				            					<div class="support-article-wrapper">
+								        <li>
+				            				<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
-								            
-								            <h4><?php echo $image['title']; ?></h4>
+								            	
+								            	<h4><?php echo $image['title']; ?></h4>
 								         
-											<?php echo $image['caption']; ?>
-											<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
+												<?php echo $image['caption']; ?>
+												<a rel="bookmark" class="article-read-more" href="<?php echo $image['url']; ?>" title="<?php echo $image['title']; ?>">Download</a>
 								        	<?php endforeach; ?>
-								        </div>
+								        	</div>
 								        </li>
 								    </ul>
 							<?php endif; ?>
@@ -90,6 +112,7 @@ get_header(); ?>
 			
 			?>
 		</div>
+		<hr style="height: 15px; background-color: #EF643A;">
 	<!-- END Block 1 -->
 
 	<!-- Block 2 -->
@@ -101,13 +124,17 @@ get_header(); ?>
 				<div class="exodus-support-articles">
 					<div class="row medium-collapse">
 						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
-							<h3>Bulletin Ads</h3>
-							<hr>
+							<div class="small-12 medium-3 columns">
+								<h3 id="Bulletins">Bulletins</h3>
+								<p>Share the message of Exodus 90 in your church bulletin with these specially designed ads that make it effortless.</p>
+								<hr>
+								<a class="button button-orange button-larger" href="https://exodus90.com/wp-content/uploads/2018/07/Bulletin-Ads.zip">Download All</a>
+							</div>
 							<?php 
 								if( $gallery ): ?>
-								    <ul>
+								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li class="small-12 medium-4 medium-uncentered columns">
+								            <li>
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -129,6 +156,7 @@ get_header(); ?>
 			
 			?>
 		</div>
+		<hr style="height: 15px; background-color: #EF643A;">
 	<!-- END Block 2 -->
 
 	<!-- Block 3 -->
@@ -140,13 +168,17 @@ get_header(); ?>
 				<div class="exodus-support-articles">
 					<div class="row medium-collapse">
 						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
-							<h3>Logos</h3>
-							<hr>
+							<div class="small-12 medium-3 columns">
+								<h3 id="Logos">Logos</h3>
+								<p>Our logos can be used for partnerships, custom advertisements or t-shirts — it's all up to your own imagination.</p>
+								<hr>
+								<a class="button button-orange button-larger" href="https://exodus90.com/wp-content/uploads/2018/07/Logos.zip">Download All</a>
+							</div>
 							<?php 
 								if( $gallery ): ?>
-								    <ul>
+								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li class="small-12 medium-4 medium-uncentered columns">
+								            <li>
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -168,6 +200,7 @@ get_header(); ?>
 			
 			?>
 		</div>
+		<hr style="height: 15px; background-color: #EF643A;">
 	<!-- END Block 3 -->
 
 	<!-- Block 4 -->
@@ -179,13 +212,17 @@ get_header(); ?>
 				<div class="exodus-support-articles">
 					<div class="row medium-collapse">
 						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
-							<h3>Posters</h3>
-							<hr>
+							<div class="small-12 medium-3 columns">
+								<h3 id="Posters">Posters</h3>
+								<p>Print and hang these posters in your Parish Hall, Youth Center or your home office to keep you motivated and reach other men in your life.</p>
+								<hr>
+								<a class="button button-orange button-larger" href="https://exodus90.com/wp-content/uploads/2018/07/Posters.zip">Download All</a>
+							</div>
 							<?php 
 								if( $gallery ): ?>
-								    <ul>
+								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li class="small-12 medium-4 medium-uncentered columns">
+								            <li>
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -207,6 +244,7 @@ get_header(); ?>
 			
 			?>
 		</div>
+		<hr style="height: 15px; background-color: #EF643A;">
 	<!-- END Block 4 -->
 
 	<!-- Block 5 -->
@@ -218,13 +256,17 @@ get_header(); ?>
 				<div class="exodus-support-articles">
 					<div class="row medium-collapse">
 						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
-							<h3>Product Photos</h3>
-							<hr>
+							<div class="small-12 medium-3 columns">
+								<h3 id="ProductPhotos">Product Photos</h3>
+								<p>These Exodus 90 ads are perfect for printing in your bulletin, adding to your church email newsletter or placing on your parish website.</p>
+								<hr>
+								<a class="button button-orange button-larger" href="https://exodus90.com/wp-content/uploads/2018/07/Product-Photos.zip">Download All</a>
+							</div>
 							<?php 
 								if( $gallery ): ?>
-								    <ul>
+								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li class="small-12 medium-4 medium-uncentered columns">
+								            <li>
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -246,6 +288,7 @@ get_header(); ?>
 			
 			?>
 		</div>
+		<hr style="height: 15px; background-color: #EF643A;">
 	<!-- END Block 5 -->
 
 	<!-- Block 6 -->
@@ -257,13 +300,17 @@ get_header(); ?>
 				<div class="exodus-support-articles">
 					<div class="row medium-collapse">
 						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
-							<h3>Screenshots</h3>
-							<hr>
+							<div class="small-12 medium-3 columns">
+								<h3 id="Screenshots">Screenshots</h3>
+								<p>Give your phone and computer a facelift with our free backgrounds that keep you focused and provide an opportunity to witness to others.</p>
+								<hr>
+								<a class="button button-orange button-larger" href="https://exodus90.com/wp-content/uploads/2018/07/Screenshots.zip">Download All</a>
+							</div>
 							<?php 
 								if( $gallery ): ?>
-								    <ul>
+								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li class="small-12 medium-4 medium-uncentered columns">
+								            <li>
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -285,6 +332,7 @@ get_header(); ?>
 			
 			?>
 		</div>
+		<hr style="height: 15px; background-color: #EF643A;">
 	<!-- END Block 6 -->
 
 	<!-- Block 7 -->
@@ -296,13 +344,17 @@ get_header(); ?>
 				<div class="exodus-support-articles">
 					<div class="row medium-collapse">
 						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
-							<h3>Social Media Graphics</h3>
-							<hr>
+							<div class="small-12 medium-3 columns">
+								<h3 id="SocialMedia">Social Media Graphics</h3>
+								<p>Share these graphics with your group as you all begin to detach from technology and begin freeing yourselves.</p>
+								<hr>
+								<a class="button button-orange button-larger" href="https://exodus90.com/wp-content/uploads/2018/07/Social-Media-Graphics.zip">Download All</a>
+							</div>
 							<?php 
 								if( $gallery ): ?>
-								    <ul>
+								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li class="small-12 medium-4 medium-uncentered columns">
+								            <li>
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -324,6 +376,7 @@ get_header(); ?>
 			
 			?>
 		</div>
+		<hr style="height: 15px; background-color: #EF643A;">
 	<!-- END Block 7 -->
 
 	<!-- Block 8 -->
@@ -335,13 +388,17 @@ get_header(); ?>
 				<div class="exodus-support-articles">
 					<div class="row medium-collapse">
 						<div class="small-10 small-offset-1 medium-12 medium-offset-0 columns">
-							<h3>Videos</h3>
-							<hr>
+							<div class="small-12 medium-3 columns">
+								<h3 id="Video">Video</h3>
+								<p>Share our Exodus 90 video with you friends, family and colleagues. Embed it on your website or show it during your weekly bible study.</p>
+								<hr>
+								<a class="button button-orange button-larger" href="https://exodus90.com/wp-content/uploads/2018/07/Videos.zip">Download All</a>
+							</div>
 							<?php 
 								if( $gallery ): ?>
-								    <ul>
+								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li class="small-12 medium-4 medium-uncentered columns">
+								            <li>
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -363,6 +420,7 @@ get_header(); ?>
 			
 			?>
 		</div>
+		<hr style="height: 15px; background-color: #EF643A;">
 	<!-- END Block 8 -->
 
 	</article>
