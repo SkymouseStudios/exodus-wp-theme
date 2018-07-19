@@ -79,7 +79,7 @@ function themename_register_styles_scripts() {
 	wp_register_style('bitter', '//fonts.googleapis.com/css?family=Bitter:400,700');
 	wp_register_style('roboto', '//fonts.googleapis.com/css?family=Roboto:400,700');
 	wp_register_style( 'googlefonts', '//fonts.googleapis.com/css?family=Open+Sans:400,700,800');
-	wp_register_style( 'styles', get_stylesheet_directory_uri() . '/assets/css/style.css?v=04-15-17', null, null, 'all' );
+	wp_register_style( 'styles', get_stylesheet_directory_uri() . '/assets/css/style.css', null, null, 'all' );
 
 	// Editor stylesheets.
 	add_editor_style( 'assets/css/editor.css' );

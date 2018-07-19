@@ -54,17 +54,17 @@ get_header(); ?>
 
 			<div class="row uncontained medium-collapse small-collapes ninety-bg">
 				<div class="small-10 medium-9 medium-offset-1 columns" style="text-align: center;">
-						<div style="margin: 20px"></div>
-						<a class="button button-orange button-larger" href="#Ads">Ads</a>
-						<a class="button button-orange button-larger" href="#Bulletins">Bulletins</a>
-						<a class="button button-orange button-larger" href="#Logos">Logos</a>
-						<div style="margin: 20px"></div>
-						<a class="button button-orange button-larger" href="#Posters">Posters</a>
-						<a class="button button-orange button-larger" href="#ProductPhotos">Product Photos</a>
-						<a class="button button-orange button-larger" href="#Screenshots">Screenshots</a>
-						<div style="margin: 20px"></div>
-						<a class="button button-orange button-larger" href="#SocialMedia">Social Media</a>
-						<a class="button button-orange button-larger" href="#Video">Video</a>
+					
+						<a class="button button-orange button-larger margin-b margin-t" href="#Ads">Ads</a>
+						<a class="button button-orange button-larger margin-b margin-t" href="#Bulletins">Bulletins</a>
+						<a class="button button-orange button-larger margin-b margin-t" href="#Logos">Logos</a>
+					
+						<a class="button button-orange button-larger margin-b" href="#Posters">Posters</a>
+						<a class="button button-orange button-larger margin-b" href="#ProductPhotos">Product Photos</a>
+						<a class="button button-orange button-larger margin-b" href="#Screenshots">Screenshots</a>
+					
+						<a class="button button-orange button-larger margin-b" href="#SocialMedia">Social Media</a>
+						<a class="button button-orange button-larger margin-b" href="#Video">Video</a>
 				</div>
 			</div>
 
@@ -74,7 +74,7 @@ get_header(); ?>
 	<?php if( have_rows('media_files') ): ?>
 		<?php while( have_rows('media_files') ): the_row(); 
 			$gallery = get_sub_field('ads');
-			$size = 'medium';
+			$size = 'thumbnail';
 			?>
 				<div class="exodus-support-articles">
 					<div class="row medium-collapse">
@@ -90,7 +90,7 @@ get_header(); ?>
 								if( $gallery ): ?>
 								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								        <li>
+								        <li class="small-12 medium-4 medium-uncentered columns">
 				            				<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            	
@@ -112,7 +112,7 @@ get_header(); ?>
 			
 			?>
 		</div>
-		<hr style="height: 15px; background-color: #EF643A;">
+		<hr class="orange-line">
 	<!-- END Block 1 -->
 
 	<!-- Block 2 -->
@@ -134,7 +134,7 @@ get_header(); ?>
 								if( $gallery ): ?>
 								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li>
+								            <li class="small-12 medium-4 medium-uncentered columns">
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -156,7 +156,7 @@ get_header(); ?>
 			
 			?>
 		</div>
-		<hr style="height: 15px; background-color: #EF643A;">
+		<hr class="orange-line">
 	<!-- END Block 2 -->
 
 	<!-- Block 3 -->
@@ -178,7 +178,7 @@ get_header(); ?>
 								if( $gallery ): ?>
 								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li>
+								            <li class="small-12 medium-4 medium-uncentered columns">
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -200,7 +200,7 @@ get_header(); ?>
 			
 			?>
 		</div>
-		<hr style="height: 15px; background-color: #EF643A;">
+		<hr class="orange-line">
 	<!-- END Block 3 -->
 
 	<!-- Block 4 -->
@@ -222,7 +222,7 @@ get_header(); ?>
 								if( $gallery ): ?>
 								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li>
+								            <li class="small-12 medium-4 medium-uncentered columns">
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -244,7 +244,7 @@ get_header(); ?>
 			
 			?>
 		</div>
-		<hr style="height: 15px; background-color: #EF643A;">
+		<hr class="orange-line">
 	<!-- END Block 4 -->
 
 	<!-- Block 5 -->
@@ -266,7 +266,7 @@ get_header(); ?>
 								if( $gallery ): ?>
 								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li>
+								            <li class="small-12 medium-4 medium-uncentered columns">
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -288,7 +288,7 @@ get_header(); ?>
 			
 			?>
 		</div>
-		<hr style="height: 15px; background-color: #EF643A;">
+		<hr class="orange-line">
 	<!-- END Block 5 -->
 
 	<!-- Block 6 -->
@@ -310,7 +310,7 @@ get_header(); ?>
 								if( $gallery ): ?>
 								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li>
+								            <li class="small-12 medium-4 medium-uncentered columns">
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -332,7 +332,7 @@ get_header(); ?>
 			
 			?>
 		</div>
-		<hr style="height: 15px; background-color: #EF643A;">
+		<hr class="orange-line">
 	<!-- END Block 6 -->
 
 	<!-- Block 7 -->
@@ -354,7 +354,7 @@ get_header(); ?>
 								if( $gallery ): ?>
 								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li>
+								            <li class="small-12 medium-4 medium-uncentered columns">
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -376,7 +376,7 @@ get_header(); ?>
 			
 			?>
 		</div>
-		<hr style="height: 15px; background-color: #EF643A;">
+		<hr class="orange-line">
 	<!-- END Block 7 -->
 
 	<!-- Block 8 -->
@@ -398,7 +398,7 @@ get_header(); ?>
 								if( $gallery ): ?>
 								    <ul class="small-12 medium-9 columns">
 								        <?php foreach( $gallery as $image ): ?>
-								            <li>
+								            <li class="small-12 medium-4 medium-uncentered columns">
 				            					<div class="support-article-wrapper">
 								            	<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 								            
@@ -420,7 +420,7 @@ get_header(); ?>
 			
 			?>
 		</div>
-		<hr style="height: 15px; background-color: #EF643A;">
+		<hr class="orange-line">
 	<!-- END Block 8 -->
 
 	</article>
