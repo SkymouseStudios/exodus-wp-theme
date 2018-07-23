@@ -928,6 +928,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/min\/scripts-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/scripts-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/scripts.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1219,8 +1229,7 @@
 		"oS": 1
 		},
 	"\/config.rb": {
-		"cB": 0,
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0

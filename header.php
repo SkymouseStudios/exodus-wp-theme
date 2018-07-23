@@ -55,6 +55,7 @@
                       </li>
                       <div class="links">
                           <li class="item highlight"><a href="/get-started">Get Started &raquo;</a></li>
+                          <li class="item"><a href="https://exodus-90.myshopify.com">Store</a></li>
                           <li class="item"><a href="/media">Media</a></li>
                           <li class="item"><a href="/support">Support</a></li>
                           <li class="item"><a href="/what-does-day-91-look-like">Testimonials</a></li>
