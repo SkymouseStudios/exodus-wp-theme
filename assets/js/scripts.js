@@ -78,29 +78,6 @@
 
 		ProcessingButtons.init();
 
-		// SUPPORT: ASK A QUESTION
-		/*var $container = $('#ask-a-question');
-		if ($container.length) {
-			var $btn = $('#btn-ask-question', $container);
-			var $form = $('.wpcf7-form', $container);
-			var $cancel = $('<button class="button cancel" style="margin-right: 10px">Cancel</button>')
-				.on('click', function() {
-					$form.slideUp();
-					$btn.show();
-					// scrollTop($container, $container);
-				});
-			$cancel.insertBefore('input[type="submit"]', $form);
-			if ($btn.length && $form.length) {
-				$btn.click(function() {
-					$form.slideDown();
-					$btn.hide();
-					scrollTop($form, $container);
-				});
-			} else {
-				$container.hide();
-			}
-		}*/
-
 		// NAVIGATION		
 		var $icon = $('nav .icon-menu');
 		var $cancel = $('nav .icon-cancel');
@@ -138,3 +115,27 @@
 	});
 
 })(jQuery);
+
+$(function() {
+    $('.cross').hide();
+    $('.menu').hide();
+    
+    $('.hamburger').click(function() {
+        $('.mobile-navigation').show('fast', function() {
+            $('.hamburger').hide();
+            $('.cross').show();
+        });
+    });
+
+    $('.cross').click(function() {
+        $('.mobile-navigation').hide('fast', function() {
+            $('.cross').hide();
+            $('.hamburger').show();
+        });
+    });
+
+    $('.nl-accordion').each(function() {
+        $('ul li:first-child input[type=radio]').attr('checked', 'checked');
+    });
+});
+

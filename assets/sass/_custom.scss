@@ -472,29 +472,6 @@ footer {
         }
     }
 }
-/*
-.page-wrap {
-    min-height: 100%;
-    height: auto !important;
-    &:after {
-        content: '';
-        display: block;
-    }
-    & + footer,
-    &:after {
-        height: 211px;
-        @include break($medium) {
-            height: 151px;
-        }
-    }
-    & + footer {
-        margin-top: -211px;
-        @include break($medium) {
-            margin-top: -151px;
-        }
-    }
-}
-*/
 
 #content.front-page {
     padding-top: 0;
@@ -794,11 +771,5 @@ footer {
                 float: left;
             }
         }
-    }
-}
-
-.exodus-purchase-wrapper {
-    .exodus-field-group-products {
-        /*display: none;*/
     }
 }

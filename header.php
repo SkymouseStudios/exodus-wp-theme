@@ -35,35 +35,30 @@
 
       <div class="navigation-wrap">
           <nav class="utility-navigation">
-              <ul>
-                  <li class="secondary"><a href="https://thosecatholicmen.com/" target="_blank" title="Those Catholic Men" class="tcm" style="color: #231F20;">Brought to you by Those Catholic Men</a></li>
-                  <li class="primary"><a href="/contact" class="utility-button" style="color: #231F20;">Contact Us</a></li>
-
-              </ul>
+              <?php wp_nav_menu( array( 
+                      'theme_location' => 'top-nav'
+                    )); ?>
           </nav>
+          
           <header class="reg">
               <div class="mobile-menu-icon">
                   <button class="hamburger" style="padding-right: 40px;">☰</button>
                   <button class="cross" style="padding-right: 40px; display: none;">˟</button>
               </div>
-              <div>
-                  <ul class="primary-navigation">
-                      <li>
-                          <a href="/" title="Exodus 90">
-                              <span class="exodus-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.svg" alt="Exodus 90"></span>
-                          </a>
-                      </li>
-                      <div class="links">
-                          <li class="item highlight"><a href="/get-started">Get Started &raquo;</a></li>
-                          <li class="item"><a href="https://exodus-90.myshopify.com">Store</a></li>
-                          <li class="item"><a href="/media">Media</a></li>
-                          <li class="item"><a href="/support">Support</a></li>
-                          <li class="item"><a href="/what-does-day-91-look-like">Testimonials</a></li>
-                          <li class="item"><a href="/about">About</a></li>
-                      </div>
-                  </ul>
-              </div>
+              
+              <a href="/" title="Exodus 90">
+                  <span class="exodus-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.svg" alt="Exodus 90"></span>
+              </a>
+                     
+              <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <?php wp_nav_menu( array( 
+                        'container' => false,
+                        'theme_location' => 'primary-nav', 
+                        'container_class' => 'primary-navigation' 
+                      )); ?>
+              </nav>  
           </header>
+
           <div class="mobile-navigation" style="display: none;">
               <ul>
                   <a href="/about"><li>ABOUT</li></a>
@@ -73,6 +68,4 @@
                   <a href="/get-started"><li class="navSpecial">GET STARTED »</li></a>
               </ul>
           </div>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-          <script src="/wp-content/themes/exodus-wp-theme/assets/js/index.js"></script>
       </div>

@@ -1,5 +1,9 @@
 Changelog.md
 
+*Version 1.9.9 - June 2, 2018*
+
+- Added the store link in the header
+
 *Version 1.9.8 - June 2, 2018*
 
 - Added new styles for the special request section on the get started page.

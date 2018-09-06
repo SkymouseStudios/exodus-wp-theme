@@ -2343,29 +2343,6 @@ footer {
       .exodus-support-articles li .support-article-wrapper a.article-read-more {
         margin-top: 1.06667em; }
 
-/*
-.page-wrap {
-    min-height: 100%;
-    height: auto !important;
-    &:after {
-        content: '';
-        display: block;
-    }
-    & + footer,
-    &:after {
-        height: 211px;
-        @include break($medium) {
-            height: 151px;
-        }
-    }
-    & + footer {
-        margin-top: -211px;
-        @include break($medium) {
-            margin-top: -151px;
-        }
-    }
-}
-*/
 #content.front-page {
   padding-top: 0; }
   #content.front-page .hero {
@@ -2591,9 +2568,6 @@ footer {
     margin-top: 1em;
     width: 100%;
     float: left; }
-
-.exodus-purchase-wrapper .exodus-field-group-products {
-  /*display: none;*/ }
 
 form {
   margin: 0 0 1em; }

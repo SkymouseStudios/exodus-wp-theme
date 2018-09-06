@@ -5,6 +5,14 @@
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
 		"uuidString": "AA9030AB-F8A4-4C20-823E-B212D732C27E"
+		},
+	{
+		"name": "New \"Run Script\" Step",
+		"scriptSourceString": "rm -rf ..\/exodus-wp-theme\nmv exodus-wp-theme ..\nditto -c -k --sequesterRsrc --keepParent ..\/exodus-wp-theme ..\/exodus-wp-theme.zip",
+		"scriptType": 1,
+		"scriptUUIDString": "2B4834D2-4F30-471C-B858-3A3B63E94FC2",
+		"stepType": 2,
+		"uuidString": "D6E1AC06-5890-47EE-9043-40F077B605F6"
 		}
 	],
 "creatorBuild": "26680",
@@ -13,525 +21,525 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.gitignore",
+		"oAP": "\/exodus-wp-theme\/.gitignore",
 		"oF": 0
 		},
 	"\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_base.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_base.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_base.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_fonts.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_fonts.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_fonts.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_functions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_functions.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_functions.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_global.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_global.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_global.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_print.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_print.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_print.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_reset.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_reset.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/_reset.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/editor.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/editor.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/editor.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/styles.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/styles.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/215470b7907b54280bd370994c6035b1b664ad8c\/styles.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_css3.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_css3.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_css3.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_support.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_support.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_support.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_typography.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_typography.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_utilities.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_utilities.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/2429b6534898602eadb32043b36a8bb9554ce0d6\/_utilities.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/2a0be094259fd55ba2773492017dd8b1ee9f2a0c\/_brightness.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/2a0be094259fd55ba2773492017dd8b1ee9f2a0c\/_brightness.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/2a0be094259fd55ba2773492017dd8b1ee9f2a0c\/_brightness.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/2a0be094259fd55ba2773492017dd8b1ee9f2a0c\/_contrast.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/2a0be094259fd55ba2773492017dd8b1ee9f2a0c\/_contrast.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/2a0be094259fd55ba2773492017dd8b1ee9f2a0c\/_contrast.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_clearfix.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_clearfix.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_clearfix.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_float.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_float.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_float.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_hacks.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_hacks.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_hacks.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_min.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_min.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_min.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_reset.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_reset.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_reset.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_tag-cloud.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_tag-cloud.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/40f62ee9f605e690520d9350152fbefc41d1e16d\/_tag-cloud.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/7f3f84c32e41199c5babe3cb88bf9d657898f153\/_base.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/7f3f84c32e41199c5babe3cb88bf9d657898f153\/_base.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/7f3f84c32e41199c5babe3cb88bf9d657898f153\/_base.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/7f3f84c32e41199c5babe3cb88bf9d657898f153\/_sprite-img.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/7f3f84c32e41199c5babe3cb88bf9d657898f153\/_sprite-img.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/7f3f84c32e41199c5babe3cb88bf9d657898f153\/_sprite-img.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/7fd4d9d5dd89a5378908387a86849a4711091fc8\/_grid-background.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/7fd4d9d5dd89a5378908387a86849a4711091fc8\/_grid-background.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/7fd4d9d5dd89a5378908387a86849a4711091fc8\/_grid-background.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_bullets.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_bullets.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_bullets.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_horizontal-list.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_horizontal-list.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_horizontal-list.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_inline-block-list.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_inline-block-list.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_inline-block-list.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_inline-list.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_inline-list.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/8c863f507e8561d6142c4079f4fedfe520d11f3a\/_inline-list.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/94e9e8a9a31cafa3ae83f2a11202cbd54b585f18\/_utilities.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/94e9e8a9a31cafa3ae83f2a11202cbd54b585f18\/_utilities.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/94e9e8a9a31cafa3ae83f2a11202cbd54b585f18\/_utilities.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d57d208550a63b3cedf940d1bd974fdfe67252a1\/_compass.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d57d208550a63b3cedf940d1bd974fdfe67252a1\/_compass.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d57d208550a63b3cedf940d1bd974fdfe67252a1\/_compass.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_color.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_color.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_color.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_general.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_general.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_general.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_sprites.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_sprites.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_sprites.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_tables.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_tables.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d604165df4f874d586e074d8684f331487dcee92\/_tables.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_animation.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_animation.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_animation.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_appearance.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_appearance.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_appearance.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_background-clip.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_background-clip.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_background-clip.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_background-origin.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_background-origin.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_background-origin.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_background-size.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_background-size.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_background-size.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_border-radius.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_border-radius.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_border-radius.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_box-shadow.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_box-shadow.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_box-shadow.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_box-sizing.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_box-sizing.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_box-sizing.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_columns.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_columns.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_columns.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_deprecated-support.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_deprecated-support.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_deprecated-support.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_filter.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_filter.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_filter.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_flexbox.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_flexbox.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_flexbox.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_font-face.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_font-face.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_font-face.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_hyphenation.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_hyphenation.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_hyphenation.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_images.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_images.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_images.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_inline-block.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_inline-block.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_inline-block.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_opacity.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_opacity.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_opacity.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_regions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_regions.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_regions.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_text-shadow.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_text-shadow.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_text-shadow.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_transform.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_transform.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_transform.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_transition.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_transition.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_transition.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_user-interface.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_user-interface.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/d87d6308240c08ce1556d972893cb53705a57436\/_user-interface.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/e00704a84bada8b60e873c540b377b9134676dd3\/_hover-link.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/e00704a84bada8b60e873c540b377b9134676dd3\/_hover-link.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/e00704a84bada8b60e873c540b377b9134676dd3\/_hover-link.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/e00704a84bada8b60e873c540b377b9134676dd3\/_link-colors.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/e00704a84bada8b60e873c540b377b9134676dd3\/_link-colors.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/e00704a84bada8b60e873c540b377b9134676dd3\/_link-colors.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/e00704a84bada8b60e873c540b377b9134676dd3\/_unstyled-link.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/e00704a84bada8b60e873c540b377b9134676dd3\/_unstyled-link.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/e00704a84bada8b60e873c540b377b9134676dd3\/_unstyled-link.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_ellipsis.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_ellipsis.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_ellipsis.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_force-wrap.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_force-wrap.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_force-wrap.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_nowrap.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_nowrap.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_nowrap.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_replacement.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_replacement.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/e709ef32da26da9308a7c445da6ff3956001593c\/_replacement.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_links.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_links.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_links.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_lists.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_lists.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_lists.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_text.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_text.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_text.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_units.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_units.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_units.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_vertical_rhythm.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_vertical_rhythm.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/ee39bc4ba006411ac75ce6482bfd1bff56898192\/_vertical_rhythm.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/fab42d6c4119477e71d2ad5329854619c0214def\/_alternating-rows-and-columns.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/fab42d6c4119477e71d2ad5329854619c0214def\/_alternating-rows-and-columns.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/fab42d6c4119477e71d2ad5329854619c0214def\/_alternating-rows-and-columns.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/fab42d6c4119477e71d2ad5329854619c0214def\/_borders.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/fab42d6c4119477e71d2ad5329854619c0214def\/_borders.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/fab42d6c4119477e71d2ad5329854619c0214def\/_borders.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/fab42d6c4119477e71d2ad5329854619c0214def\/_scaffolding.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/fab42d6c4119477e71d2ad5329854619c0214def\/_scaffolding.scssc",
+		"oAP": "\/exodus-wp-theme\/.sass-cache\/fab42d6c4119477e71d2ad5329854619c0214def\/_scaffolding.scssc",
 		"oF": 0
 		},
 	"\/404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/404.php",
+		"oAP": "\/exodus-wp-theme\/404.php",
 		"oF": 0
 		},
 	"\/archive.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/archive.php",
+		"oAP": "\/exodus-wp-theme\/archive.php",
 		"oF": 0
 		},
 	"\/assets\/assets": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/assets",
+		"oAP": "\/exodus-wp-theme\/assets\/assets",
 		"oF": 0
 		},
 	"\/assets\/css\/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/css\/.gitkeep",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/.gitkeep",
 		"oF": 0
 		},
 	"\/assets\/css\/editor.css": {
@@ -540,7 +548,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/editor-min.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/editor-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -549,8 +557,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/style-min.css",
+		"oA": 1,
+		"oAP": "\/exodus-wp-theme\/assets\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -560,7 +568,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/vendor\/magnific-popup\/magnific-popup-min.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/vendor\/magnific-popup\/magnific-popup-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -568,14 +576,14 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/font\/fontello.eot",
+		"oAP": "\/exodus-wp-theme\/assets\/font\/fontello.eot",
 		"oF": 0
 		},
 	"\/assets\/font\/fontello.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/font\/fontello.svg",
+		"oAP": "\/exodus-wp-theme\/assets\/font\/fontello.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -585,21 +593,21 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/font\/fontello.ttf",
+		"oAP": "\/exodus-wp-theme\/assets\/font\/fontello.ttf",
 		"oF": 0
 		},
 	"\/assets\/font\/fontello.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/font\/fontello.woff",
+		"oAP": "\/exodus-wp-theme\/assets\/font\/fontello.woff",
 		"oF": 0
 		},
 	"\/assets\/img\/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/img\/.gitkeep",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/.gitkeep",
 		"oF": 0
 		},
 	"\/assets\/img\/90-days.jpg": {
@@ -607,204 +615,204 @@
 		"iS": 296252,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/90-days.jpg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/90-days.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/assets\/img\/appledevices-02.png": {
 		"ft": 32768,
 		"iS": 34465,
 		"oA": 0,
-		"oAP": "\/assets\/img\/appledevices-02.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/appledevices-02.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/brand-mark-circle.png": {
 		"ft": 32768,
 		"iS": 29978,
 		"oA": 0,
-		"oAP": "\/assets\/img\/brand-mark-circle.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/brand-mark-circle.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/brand-mark-triangle.png": {
 		"ft": 32768,
 		"iS": 20378,
 		"oA": 0,
-		"oAP": "\/assets\/img\/brand-mark-triangle.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/brand-mark-triangle.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/close.png": {
 		"ft": 32768,
 		"iS": 1851,
 		"oA": 0,
-		"oAP": "\/assets\/img\/close.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/close.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/digital-background.jpg": {
 		"ft": 16384,
 		"iS": 88635,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/digital-background.jpg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/digital-background.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/assets\/img\/digital-print-background.jpg": {
 		"ft": 16384,
 		"iS": 74243,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/digital-print-background.jpg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/digital-print-background.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/assets\/img\/digital-print-plan.jpg": {
 		"ft": 16384,
 		"iS": 392176,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/digital-print-plan.jpg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/digital-print-plan.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/assets\/img\/digital-print.png": {
 		"ft": 32768,
 		"iS": 89663,
 		"oA": 0,
-		"oAP": "\/assets\/img\/digital-print.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/digital-print.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/digital.jpg": {
 		"ft": 16384,
 		"iS": 176133,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/digital.jpg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/digital.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/assets\/img\/digital.png": {
 		"ft": 32768,
 		"iS": 88732,
 		"oA": 0,
-		"oAP": "\/assets\/img\/digital.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/digital.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/exoconcept_bg.jpg": {
 		"ft": 16384,
 		"iS": 37393,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/exoconcept_bg.jpg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/exoconcept_bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/assets\/img\/facebook-letter-logo.png": {
 		"ft": 32768,
 		"iS": 20738,
 		"oA": 0,
-		"oAP": "\/assets\/img\/facebook-letter-logo.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/facebook-letter-logo.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/footer-logo.png": {
 		"ft": 32768,
 		"iS": 2873,
 		"oA": 0,
-		"oAP": "\/assets\/img\/footer-logo.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/footer-logo.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/ham-menu.png": {
 		"ft": 32768,
 		"iS": 1297,
 		"oA": 0,
-		"oAP": "\/assets\/img\/ham-menu.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/ham-menu.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/icon-footer-twitter.png": {
 		"ft": 32768,
 		"iS": 1274,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-footer-twitter.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/icon-footer-twitter.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/icon-footer-youtube.png": {
 		"ft": 32768,
 		"iS": 1138,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-footer-youtube.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/icon-footer-youtube.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 8378,
 		"oA": 0,
-		"oAP": "\/assets\/img\/logo.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/logo.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/logo.svg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -815,105 +823,95 @@
 		"iS": 1480141,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/photo-1472162314594-eca3c3d90df1.jpg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/photo-1472162314594-eca3c3d90df1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/assets\/img\/premium-background.jpg": {
 		"ft": 16384,
 		"iS": 108412,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/premium-background.jpg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/premium-background.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/assets\/img\/premium-plan.jpg": {
 		"ft": 16384,
 		"iS": 334149,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/premium-plan.jpg",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/premium-plan.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/assets\/img\/premium.png": {
 		"ft": 32768,
 		"iS": 87047,
 		"oA": 0,
-		"oAP": "\/assets\/img\/premium.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/premium.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/tcm-footer-logo.png": {
 		"ft": 32768,
 		"iS": 4423,
 		"oA": 0,
-		"oAP": "\/assets\/img\/tcm-footer-logo.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/tcm-footer-logo.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/tcm-logo.png": {
 		"ft": 32768,
 		"iS": 46538,
 		"oA": 0,
-		"oAP": "\/assets\/img\/tcm-logo.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/tcm-logo.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/transparent.png": {
 		"ft": 32768,
 		"iS": 27755,
 		"oA": 0,
-		"oAP": "\/assets\/img\/transparent.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/transparent.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/assets\/img\/triangle.png": {
 		"ft": 32768,
 		"iS": 4268,
 		"oA": 0,
-		"oAP": "\/assets\/img\/triangle.png",
+		"oAP": "\/exodus-wp-theme\/assets\/img\/triangle.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/js\/app.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"q": 84
 		},
 	"\/assets\/js\/index.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/index-min.js",
+		"oAP": "\/exodus-wp-theme\/assets\/js\/min\/index-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -923,17 +921,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/input-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/min\/scripts-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/scripts-min-min.js",
+		"oAP": "\/exodus-wp-theme\/assets\/js\/min\/input-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -943,7 +931,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/scripts-min.js",
+		"oAP": "\/exodus-wp-theme\/assets\/js\/min\/scripts-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -953,7 +941,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/vendor\/magnific-popup\/min\/jquery.magnific-popup.min-min.js",
+		"oAP": "\/exodus-wp-theme\/assets\/js\/vendor\/magnific-popup\/min\/jquery.magnific-popup.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -963,7 +951,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/vendor\/min\/masonry.pkgd.min-min.js",
+		"oAP": "\/exodus-wp-theme\/assets\/js\/vendor\/min\/masonry.pkgd.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -976,7 +964,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_animation.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_animation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -989,7 +977,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_brock.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_brock.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1002,7 +990,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_custom.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_custom.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1015,7 +1003,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_fontello.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_fontello.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1028,7 +1016,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_form.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_form.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1041,7 +1029,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_grid.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1054,7 +1042,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_mixins.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1067,7 +1055,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_modifiers.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_modifiers.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1080,7 +1068,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_reset.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1093,7 +1081,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_retina.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_retina.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1106,7 +1094,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_type.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_type.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1119,7 +1107,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_variables.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1132,7 +1120,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/css\/_content.css",
+		"oAP": "\/exodus-wp-theme\/assets\/sass\/css\/_content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1145,7 +1133,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/css\/_nav.css",
+		"oAP": "\/exodus-wp-theme\/assets\/sass\/css\/_nav.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1158,7 +1146,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/css\/_product.css",
+		"oAP": "\/exodus-wp-theme\/assets\/sass\/css\/_product.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1171,7 +1159,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/css\/_tiers.css",
+		"oAP": "\/exodus-wp-theme\/assets\/sass\/css\/_tiers.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1184,7 +1172,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/css\/_skymse.css",
+		"oAP": "\/exodus-wp-theme\/assets\/sass\/css\/_skymse.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1197,7 +1185,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/style.css",
+		"oAP": "\/exodus-wp-theme\/assets\/css\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1211,7 +1199,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/Changelog.html",
+		"oAP": "\/exodus-wp-theme\/Changelog.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1223,7 +1211,7 @@
 	"\/composer.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/composer-min.json",
+		"oAP": "\/exodus-wp-theme\/composer-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -1238,42 +1226,48 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/content.php",
+		"oAP": "\/exodus-wp-theme\/content.php",
+		"oF": 0
+		},
+	"\/exodus-wp-theme": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/exodus-wp-theme\/exodus-wp-theme",
 		"oF": 0
 		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/footer.php",
+		"oAP": "\/exodus-wp-theme\/footer.php",
 		"oF": 0
 		},
 	"\/front-page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/front-page.php",
+		"oAP": "\/exodus-wp-theme\/front-page.php",
 		"oF": 0
 		},
 	"\/functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/functions.php",
+		"oAP": "\/exodus-wp-theme\/functions.php",
 		"oF": 0
 		},
 	"\/functions\/advanced-custom-field-export.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/functions\/advanced-custom-field-export.php",
+		"oAP": "\/exodus-wp-theme\/functions\/advanced-custom-field-export.php",
 		"oF": 0
 		},
 	"\/functions\/advanced-custom-fields.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/functions\/advanced-custom-fields.php",
+		"oAP": "\/exodus-wp-theme\/functions\/advanced-custom-fields.php",
 		"oF": 0
 		},
 	"\/Gruntfile.js": {
@@ -1281,7 +1275,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/min\/Gruntfile-min.js",
+		"oAP": "\/exodus-wp-theme\/min\/Gruntfile-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1290,41 +1284,41 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/header.php",
+		"oAP": "\/exodus-wp-theme\/header.php",
 		"oF": 0
 		},
 	"\/includes\/admin.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/includes\/admin.php",
+		"oAP": "\/exodus-wp-theme\/includes\/admin.php",
 		"oF": 0
 		},
 	"\/includes\/partials\/home-promotion-tier.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/includes\/partials\/home-promotion-tier.php",
+		"oAP": "\/exodus-wp-theme\/includes\/partials\/home-promotion-tier.php",
 		"oF": 0
 		},
 	"\/includes\/utility.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/includes\/utility.php",
+		"oAP": "\/exodus-wp-theme\/includes\/utility.php",
 		"oF": 0
 		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.php",
+		"oAP": "\/exodus-wp-theme\/index.php",
 		"oF": 0
 		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-min.json",
+		"oAP": "\/exodus-wp-theme\/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -1333,84 +1327,84 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-contact.php",
+		"oAP": "\/exodus-wp-theme\/page-contact.php",
 		"oF": 0
 		},
 	"\/page-get-started.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-get-started.php",
+		"oAP": "\/exodus-wp-theme\/page-get-started.php",
 		"oF": 0
 		},
 	"\/page-hook-shopify-order.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-hook-shopify-order.php",
+		"oAP": "\/exodus-wp-theme\/page-hook-shopify-order.php",
 		"oF": 0
 		},
 	"\/page-media.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-media.php",
+		"oAP": "\/exodus-wp-theme\/page-media.php",
 		"oF": 0
 		},
 	"\/page-remote-fraternities.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-remote-fraternities.php",
+		"oAP": "\/exodus-wp-theme\/page-remote-fraternities.php",
 		"oF": 0
 		},
 	"\/page-support.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-support.php",
+		"oAP": "\/exodus-wp-theme\/page-support.php",
 		"oF": 0
 		},
 	"\/partial-preview-email-signup.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/partial-preview-email-signup.php",
+		"oAP": "\/exodus-wp-theme\/partial-preview-email-signup.php",
 		"oF": 0
 		},
 	"\/partial-product-tiers.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/partial-product-tiers.php",
+		"oAP": "\/exodus-wp-theme\/partial-product-tiers.php",
 		"oF": 0
 		},
 	"\/partial-shopify-digital-print-plan.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/partial-shopify-digital-print-plan.php",
+		"oAP": "\/exodus-wp-theme\/partial-shopify-digital-print-plan.php",
 		"oF": 0
 		},
 	"\/partial-shopify-digital.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/partial-shopify-digital.php",
+		"oAP": "\/exodus-wp-theme\/partial-shopify-digital.php",
 		"oF": 0
 		},
 	"\/partial-shopify-premium-plan.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/partial-shopify-premium-plan.php",
+		"oAP": "\/exodus-wp-theme\/partial-shopify-premium-plan.php",
 		"oF": 0
 		},
 	"\/phpcs.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/phpcs.xml",
+		"oAP": "\/exodus-wp-theme\/phpcs.xml",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -1422,7 +1416,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "\/exodus-wp-theme\/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1436,56 +1430,56 @@
 		"iS": 51919,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/screenshot.jpg",
+		"oAP": "\/exodus-wp-theme\/screenshot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 84
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 51919,
 		"oA": 0,
-		"oAP": "\/screenshot.png",
+		"oAP": "\/exodus-wp-theme\/screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 84
 		},
 	"\/search.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/search.php",
+		"oAP": "\/exodus-wp-theme\/search.php",
 		"oF": 0
 		},
 	"\/searchform.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/searchform.php",
+		"oAP": "\/exodus-wp-theme\/searchform.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sidebar.php",
+		"oAP": "\/exodus-wp-theme\/sidebar.php",
 		"oF": 0
 		},
 	"\/single-product.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/single-product.php",
+		"oAP": "\/exodus-wp-theme\/single-product.php",
 		"oF": 0
 		},
 	"\/single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/single.php",
+		"oAP": "\/exodus-wp-theme\/single.php",
 		"oF": 0
 		},
 	"\/style.css": {
@@ -1493,9 +1487,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/style-min.css",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/exodus-wp-theme\/style.css",
+		"oF": 3,
 		"oS": 3
 		}
 	},
@@ -1505,10 +1499,11 @@
 	},
 "projectAttributes": {
 	"creationDate": 553719405,
-	"displayValue": "exodus-wp-theme",
+	"displayValue": "exodus90-main",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-chloe",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 557943140
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1764,8 +1759,8 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
-	"buildFolderName": "build",
+	"buildFolderActive": 1,
+	"buildFolderName": "exodus-wp-theme",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -3312,7 +3307,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 84
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -3401,7 +3396,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 84
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -3661,7 +3656,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/exodus-wp-theme"
 	},
 "settingsFileVersion": "3"
 }

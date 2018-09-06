@@ -9,8 +9,32 @@ get_header(); ?>
 <div id="content" class="front-page full-width" data-template-name="front-page">
 <?php while ( have_posts() ) : the_post(); ?>
 	<?php $postThumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-	<div class="hero text-center" id="fullpage" style="background-image: url(<?php echo $postThumbnail; ?>)">
-		<div class="section" id="section0">
+	
+	<style>
+		.header-video {
+			width: 100%;
+			display: block;
+			text-align: center;
+			left: 0;
+			top: 0px;
+		}
+
+		video {
+			display: block;
+			height: auto !important;
+			width: 100%;
+		}
+	</style>
+	
+	
+	<div class="hero text-center" id="fullpage" style="">
+		<div class="header-video">
+			<video playsinline controls loop="" muted="false" autoplay="" title="Exodus90 Intro" poster="https://exodus90.com/wp-content/uploads/2018/08/exodus-90-bg.png" class="fullscreen">
+			<source src="https://exodus90.com/wp-content/uploads/2018/08/Exodus-90Draft4-2.mp4" type="video/mp4">
+			</video>
+		</div>
+		
+		<div class="section" id="section0" style="background-position:center; background-image: url(<?php echo $postThumbnail; ?>)">
 			<div class="hero-inner">
 				<div class="hero-content">
 					<div class="row">
@@ -30,6 +54,9 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
+	
+
+
 	<?php exodus_home_promotion_tier('home_tier_one'); ?>
 	<?php if ($testimonial = exodus_get_custom_field('testimonial')) { ?>
 		<div class="testimonial text-center blue-bg ninety-bg water-top water-bottom">
