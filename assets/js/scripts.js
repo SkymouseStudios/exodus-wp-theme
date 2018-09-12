@@ -114,11 +114,9 @@
 		});
 	});
 
-})(jQuery);
-
-$(function() {
+	$(function() {
     $('.cross').hide();
-    $('.menu').hide();
+    $('.mobile-navigation').hide();
     
     $('.hamburger').click(function() {
         $('.mobile-navigation').show('fast', function() {
@@ -137,5 +135,7 @@ $(function() {
     $('.nl-accordion').each(function() {
         $('ul li:first-child input[type=radio]').attr('checked', 'checked');
     });
-});
+	});
+
+})(jQuery);
 

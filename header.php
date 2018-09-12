@@ -46,8 +46,8 @@
                   <button class="cross" style="padding-right: 40px; display: none;">˟</button>
               </div>
               
-              <a href="/" title="Exodus 90">
-                  <span class="exodus-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.svg" alt="Exodus 90"></span>
+              <a class="exodus-logo" href="/" title="Exodus 90">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.svg" alt="Exodus 90"></span>
               </a>
                      
               <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -60,12 +60,10 @@
           </header>
 
           <div class="mobile-navigation" style="display: none;">
-              <ul>
-                  <a href="/about"><li>ABOUT</li></a>
-                  <a href="/support"><li>SUPPORT</li></a>
-                  <a href="/media"><li>MEDIA</li></a>
-                  <a href="/what-does-day-91-look-like"><li>DAY 91</li></a>
-                  <a href="/get-started"><li class="navSpecial">GET STARTED »</li></a>
-              </ul>
+              <?php wp_nav_menu( array( 
+                        'container' => false,
+                        'theme_location' => 'mobile-nav', 
+                        'container_class' => 'mobile-navigation' 
+                      )); ?>
           </div>
       </div>

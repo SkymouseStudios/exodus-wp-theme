@@ -1,23 +1,31 @@
+a.exodus-logo {
+  display: inline-block;
+
+  img {
+    display: block;
+    position: absolute;
+    height: 69px;
+    top: 0;
+    padding-left: 4em;
+    z-index: 2;
+  }
+}
 
 .navigation-wrap {
-
   position: absolute;
   width: 100%;
   z-index: 20;
 
   nav.utility-navigation {
-
-    display: inline-block;
+    display: block;
     position: relative;
     width: 100%;
-    height: 1.9em;
+    height: 2em;
     margin: 0;
-    padding: 2px;
     font-size: 0.8em;
     background: #e6e6e6;
 
     ul {
-
       margin-top: 0px;
       line-height: 1.4em;
 
@@ -25,7 +33,7 @@
         display: inline;
         a {
           font-size: 0.8em;
-          color: #231F20;
+          color: #8A8A8A;
         }
       }
 
@@ -33,6 +41,7 @@
         // "Brought to you by Those Catholic Men"
         float: left;
         padding-left: 4em;
+        padding-right: 1em;
       }
 
       li.primary {
@@ -41,60 +50,48 @@
         padding-right: 2em;
       }
 
+      .lang-item {
+        float: right;
+        padding: 0 2em;
+      }
+
     }
 
   }
 
   header {
-
     padding-top: 0px;
-    margin-top: -10px;
     position: relative;
     width: 100%;
     background: #231F20;
     height: 50px;
     line-height: 50px;
 
-    ul.primary-navigation {
+    nav {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      height: 50px;
 
-      display: inline;
-      list-style: none;
+      li {
+        display: inline-block;
+        position: relative;
+        padding: 0 1em;
 
-      .exodus-logo img {
-        display: block;
-        position: absolute;
-        height: 69px;
-        top: 0;
-        padding-left: 4em;
-        z-index: 2;
-      }
+        &:hover {
+          background-color: #4a4a4a;
+        }
 
-      .links {
+        a {
+          text-decoration: none;
+          color: white;
+        }
 
-        display: block;
-
-        li.highlight {
+        &:last-child {
           background-color: #EF643B;
           padding-left: 2em;
         }
-
-        li.item {
-
-          float: right;
-          position: relative;
-          bottom: 50px;
-          height: 50px;
-          padding-right: 2em;
-
-          a {
-            text-decoration: none;
-            color: white;
-          }
-
-        }
-
       }
-
     }
 
     .mobile-menu-icon {
@@ -228,26 +225,26 @@
         }
       }
     }
+    
     header {
-
       height: 40px;
       line-height: 40px;
 
       .mobile-menu-icon {
         display: block;
       }
-      ul.primary-navigation {
-        .exodus-logo img {
-          height: 55px;
-          padding-left: 2em;
-        }
-        .links {
-          display: none;
-        }
+
+      .exodus-logo img {
+        height: 55px;
+        padding-left: 1em;
       }
+
+      nav {
+        display: none;
+      }
+      
     }
   }
-
 } // End <800px
 
 @media screen and (max-width: 640px) {

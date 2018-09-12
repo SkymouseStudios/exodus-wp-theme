@@ -73,8 +73,8 @@ function themename_register_styles_scripts() {
 	add_editor_style( 'assets/css/editor.css' );
 
 	/* Scripts */
-	wp_register_script( 'masonry', get_stylesheet_directory_uri() . '/assets/js/vendor/masonry.pkgd.min.js', array(), null, true );
-	wp_register_script( 'scripts', get_stylesheet_directory_uri() . '/assets/js/scripts.js', array( 'jquery' ), null, true );
+	wp_register_script( 'masonry', get_stylesheet_directory_uri() . '/assets/js/vendor/min/masonry.pkgd.min-min.js', array(), null, true );
+	wp_register_script( 'scripts', get_stylesheet_directory_uri() . '/assets/js/min/scripts-min.js', array( 'jquery' ), null, true );
 
 	if ( ! is_admin() && ! is_login_page() ) {
 		wp_enqueue_style( 'bitter' );;

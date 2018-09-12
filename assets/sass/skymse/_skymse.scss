@@ -15,3 +15,263 @@
 .margin-t {
 	margin-top: 15px;
 }
+
+// Hacks
+
+#content.front-page .hero-inner {
+    padding-top: 180px;
+    padding-bottom: 310px;
+}
+
+p.subheading {
+	color: $gray;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	margin: 0 auto;
+	max-width: 450px;
+	text-align: center;
+}
+
+// New Header Styles
+.header {
+	padding-top: 250px;
+	padding-bottom: 200px;
+	color: white;
+	text-align: center;
+	position: relative;
+	height: 650px;
+	z-index: 1;
+
+	&::before {
+		content: " ";
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: $orange;
+		opacity: 0.75;
+		z-index: -1;
+	}
+
+	.post-subline {
+		font-size: 1.9em;
+		line-height: 1.2em;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+}
+
+// Article Styles
+article {
+	background: url(../img/exoconcept_bg.jpg) no-repeat center top;
+
+	h2 {
+		text-align: center;
+		color: $orange;
+		font-size: 1.5em;
+		padding-top: 50px;
+	}
+
+	.post-content {
+		
+		margin: 0 auto;
+	}
+}
+
+section {
+	margin: 40px auto 100px auto; 
+}
+// Default Section Panel
+section.panel {
+	width: 80%;
+	display: grid;
+	z-index: 1;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 30px;
+	grid-auto-rows: minmax(50px, auto);
+
+	#orangeBlock {
+		margin: 20px;
+		padding: 30px;
+		background-color: $orange;
+		color: white;
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: -40px;
+			bottom: 40px;
+			top: -40px;
+			right: 40px;
+			background-color: #e4e3e3;
+			z-index: -1;
+		}
+
+		p {
+			font-family: "Bitter";
+			font-size: 3em;
+			line-height: 1.2em;
+		}
+
+		a {
+			position: absolute;
+			padding: 10px;
+			background-color: lighten($orange, 10%);
+			bottom: -20px;
+			right: 40px;
+			margin: 0 auto;
+			color: white;
+			font-size: 0.8em;
+		}
+	}
+
+	.main-text {
+		color: $gray;
+	}
+}
+
+.section-Right {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+// Section with Single Call out quote
+section#quoteCallout {
+	width: 80%;
+	text-align: center;
+	color: white;
+	padding: 0px 20px;
+	background-color: lighten($orange, 10%);
+	padding-bottom: 15px;
+
+	p {
+		font-size: 1.8em;
+		line-height: 1.3em;
+		font-style: italic;
+	}
+
+	.callout-person {
+		font-weight: 700;
+		font-family: "Bitter";
+		font-style: none;
+	}
+
+	img {
+		width: 150px;
+		margin-top: -60px;
+		border-radius: 80px;
+	}
+}
+
+// Section with Block Quotes
+section#quoteBlock {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 0px;
+	display: grid;
+	text-align: center;
+
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 30px;
+	grid-auto-rows: minmax(50px, auto);
+	-ms-flex-line-pack: justify;
+	align-content: space-between;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+
+	img {
+		width: 150px;
+		margin-top: -100px;
+		border-radius: 80px;
+	}
+
+	.quote {
+		background-color: #F5EFEF;
+		padding: 0px 50px 5px 50px;
+		position: relative;
+		margin-bottom: 100px;
+	}
+
+	p {
+		text-align: left;
+		color: $orange;
+		font-size: 2.1em;
+		line-height: 1.2em;
+		font-weight: 700;
+		margin-bottom: 60px;
+	}
+
+	.small-text {
+		font-size: 1em;
+		color: #a4a4a4;
+		font-weight: 400;
+		text-align: center;
+		position: absolute;
+		bottom: 10px;
+		margin: 0 auto;
+		left: 0px;
+		right: 0px;
+	}
+}
+
+section.grid {
+	background-color: #f8f6f3;
+}
+
+#featureGrid {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-gap: 80px;
+	grid-auto-rows: minmax(100px, auto);
+	-ms-flex-line-pack: justify;
+	align-content: space-between;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	
+
+	.feature {
+		text-align: center;
+	}
+
+	.feature img {
+		width: 150px;
+	}
+}
+
+// Contact Form
+#Contact {
+	padding-top: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #f8f6f3;
+
+	h1 {
+		color: $orange;
+	}
+
+	.wpcf7 {
+		max-width: 500px;
+		margin: 0 auto;
+		margin-top: 50px;
+		transition: 0.5s;
+
+		input[type="submit"] {
+			background-color: lighten(#222b33, 10%);
+			transition: 0.5s;
+		}
+	}
+}
+
+// Desktop Styles
+@media only screen and (min-width: 1030px) {
+	section.panel, section#quoteCallout {
+		width: 1000px;
+	}
+}
+
