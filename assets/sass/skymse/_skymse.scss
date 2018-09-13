@@ -34,12 +34,12 @@ p.subheading {
 
 // New Header Styles
 .header {
-	padding-top: 250px;
+	padding-top: 200px;
 	padding-bottom: 200px;
 	color: white;
 	text-align: center;
 	position: relative;
-	height: 650px;
+	height: 550px;
 	z-index: 1;
 
 	&::before {
@@ -69,7 +69,7 @@ article {
 	h2 {
 		text-align: center;
 		color: $orange;
-		font-size: 1.5em;
+		font-size: 1.8em;
 		padding-top: 50px;
 	}
 
@@ -79,22 +79,23 @@ article {
 	}
 }
 
-section {
-	margin: 40px auto 100px auto; 
+video.small {
+	width: 100%;
 }
+
 // Default Section Panel
 section.panel {
-	width: 80%;
 	display: grid;
 	z-index: 1;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	grid-gap: 30px;
 	grid-auto-rows: minmax(50px, auto);
+	margin-top: 0px;
+	margin-bottom: 0px;
 
 	#orangeBlock {
-		margin: 20px;
+		margin-top: 50px;
 		padding: 30px;
-		background-color: $orange;
 		color: white;
 		position: relative;
 
@@ -133,18 +134,44 @@ section.panel {
 }
 
 .section-Right {
-	grid-column: 2;
-	grid-row: 1;
+	.words {
+		grid-column: 1;
+		grid-row: 1;
+	}	
+
+	.image {
+		perspective: 250px;
+	    perspective-origin: right;
+	}
+
+	img {
+		max-width: 80%;
+    	transform: rotateY(15deg);
+    	-webkit-transform: rotateY(15deg);
+    }
+}
+
+.section-Left {
+	.image {
+		perspective: 250px;
+    	perspective-origin: left;
+	}
+
+	img {
+		max-width: 80%;
+    	transform: rotateY(-15deg);
+    	-webkit-transform: rotateY(-15deg);
+    }
 }
 
 // Section with Single Call out quote
 section#quoteCallout {
-	width: 80%;
 	text-align: center;
 	color: white;
 	padding: 0px 20px;
 	background-color: lighten($orange, 10%);
 	padding-bottom: 15px;
+	margin-top: 100px;
 
 	p {
 		font-size: 1.8em;
@@ -171,6 +198,7 @@ section#quoteBlock {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-bottom: 0px;
+	margin-top: 200px;
 	display: grid;
 	text-align: center;
 
@@ -268,10 +296,30 @@ section.grid {
 	}
 }
 
+@media only screen and (min-width: 768px) {
+	.words {
+		padding-top: 25%;
+	}
+}
+
 // Desktop Styles
 @media only screen and (min-width: 1030px) {
 	section.panel, section#quoteCallout {
 		width: 1000px;
 	}
-}
 
+	.section-Right {
+		.words {
+			grid-column: 2;
+			grid-row: 1;
+		}	
+	}
+
+	section#quoteCallout {
+		width: 80%;
+	}
+
+	section {
+		margin: 40px auto 100px auto; 
+	}
+}

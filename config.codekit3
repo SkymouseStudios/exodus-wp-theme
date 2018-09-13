@@ -911,7 +911,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 51919,
+		"iS": 104958,
 		"oA": 0,
 		"oAP": "\/exodus-wp-theme\/screenshot.png",
 		"oF": 0,
@@ -974,9 +974,9 @@
 	"creationDate": 553719405,
 	"displayValue": "exodus90-main",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/screenshot.png",
+	"iconImageName": "meme-crying",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 558385609
+	"lastBuiltDate": 558545573
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

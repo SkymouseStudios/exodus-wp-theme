@@ -1,4 +1,21 @@
-Changelog.md
+# Exodus 90 Theme - Changelog
+
+*Version 2.0.0 - Sept 13, 2018*
+
+- New navigation
+- Added smooth scrolling for page links
+- fixed tiny images on the get started page
+- increased form font size
+- added orange bg to last item on mobile nav
+- adjusted 2018 template header
+- added mobile menu and utility nav, rather than hard-coded menus
+- Deleted grunt and compass files
+- cleaned up some functions.php functions
+- set up codekit usage
+- consolidated JS files
+- Added a new stylesheet for Skymouse Team Changes
+- Updated functions file with new date
+- Added project to code kit for compiling
 
 *Version 1.9.9 - June 2, 2018*
 

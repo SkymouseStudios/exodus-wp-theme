@@ -118,16 +118,10 @@ function exodus_site_logo() {
 }
 
 register_nav_menus(
-	array('primary-nav' => 'Primary Navigation'
-
-	)
-);
-
-register_nav_menus(
 	array(
-		'primary-nav' => __( 'Primary Navigation', 'bonestheme' ),   // main nav in header
-		'top-nav' => __( 'Utility Navigation', 'bonestheme' ), // Bar above the header
-		'mobile-nav' => __( 'The Mobile Menu', 'bonestheme' ) // Mobile navigation
+		'primary-nav' => __( 'Primary Navigation', '%Text_Domain%' ),   // main nav in header
+		'top-nav' => __( 'Utility Navigation', '%Text_Domain%' ), // Bar above the header
+		'mobile-nav' => __( 'The Mobile Menu', '%Text_Domain%' ) // Mobile navigation
 	)
 );
 

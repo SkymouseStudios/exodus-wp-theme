@@ -164,11 +164,16 @@ a.exodus-logo {
           border-bottom:#222A34 1px solid;
         }
 
+        &:last-child {
+          background-color: #EF643B;
+        }
+
         a {
           text-decoration:none;
           margin: 0px;
           color: #fff;
           padding: 3px 0;
+          
           &:hover {
             color: #fff;
             text-decoration:none;
