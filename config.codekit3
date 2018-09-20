@@ -126,6 +126,17 @@
 		"oAP": "\/exodus-wp-theme\/assets\/img\/.gitkeep",
 		"oF": 0
 		},
+	"\/assets\/img\/404.jpg": {
+		"ft": 16384,
+		"iS": 207173,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/exodus-wp-theme\/assets\/img\/404.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 84
+		},
 	"\/assets\/img\/90-days.jpg": {
 		"ft": 16384,
 		"iS": 296252,
@@ -974,9 +985,9 @@
 	"creationDate": 553719405,
 	"displayValue": "exodus90-main",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-crying",
+	"iconImageName": "\/screenshot.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 558545573
+	"lastBuiltDate": 558548820
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

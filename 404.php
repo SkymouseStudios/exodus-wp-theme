@@ -8,13 +8,15 @@
 
 get_header(); ?>
 
-<div id="content article-push">
-	<div class="row">
-		<div class="small-12 medium-10 medium-offset-1 columns">
-			<h1 class="post-title"><?php esc_html_e( 'Page Not Found', '%Text_Domain%' ) ?></h1>
-			<p><?php esc_html_e( 'We apologize but the page you\'re looking for could not be found.', '%Text_Domain%' ); ?></p>
-		</div>
+
+<div class="header" style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/404.jpg) no-repeat center; background-size: cover; height: 80vh; padding-top: 25%;">
+	<h1 class="post-title">
+		You've wandered into the desert.
+	</h1>
+	<div class="post-subline">
+		We're sorry but the page you're looking for doesn't exist.
 	</div>
-</div><!-- #content -->
+	<a style="margin-top: 20px;" class="button button-orange" href="/get-started">Start your Exodus</a>
+</div>
 
 <?php get_footer();

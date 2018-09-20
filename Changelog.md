@@ -16,6 +16,8 @@
 - Added a new stylesheet for Skymouse Team Changes
 - Updated functions file with new date
 - Added project to code kit for compiling
+- added new exodus screenshot
+- Added new page template for newer, cooler pages.
 
 *Version 1.9.9 - June 2, 2018*
 

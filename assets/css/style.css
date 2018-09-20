@@ -2434,7 +2434,7 @@ footer {
   color: #4d4d4d;
   margin-bottom: 1em; }
 .get-started img {
-  max-width: 200px; }
+  max-width: 100%; }
   @media screen and (min-width: 45em) {
     .get-started img {
       max-width: 100%; } }

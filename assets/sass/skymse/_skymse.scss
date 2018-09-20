@@ -63,7 +63,7 @@ p.subheading {
 }
 
 // Article Styles
-article {
+.page-template-page-parishes article {
 	background: url(../img/exoconcept_bg.jpg) no-repeat center top;
 
 	h2 {
@@ -322,4 +322,9 @@ section.grid {
 	section {
 		margin: 40px auto 100px auto; 
 	}
+}
+
+.get-started img {
+	max-width: 100%;
+	width: 100%;
 }

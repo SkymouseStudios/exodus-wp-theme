@@ -152,7 +152,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     border-radius: 0;
     background-color: #FFFFFF;
     font-family: inherit;
-    border: none;
+    border: 1px solid #efefef;
     color: rgba(0, 0, 0, 0.75);
     display: block;
     font-size: 1em;
@@ -161,6 +161,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     transition: all 0.15s linear;
     width: 100%;
     border-radius: 5px;
+    box-shadow: 1px 1px 20px #6f6f6f33;
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
