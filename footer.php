@@ -11,23 +11,14 @@ global $embed_magnific_js;
 </div> <!-- Closing .page-wrap -->
 
 <footer class="ninety-bg" style="background: #2C3842;">
-    <div class="row">
-        <div class="small-12 el-small-text-center el--medium-text-left medium-6 columns">
-			<span>
-				<a href="http://thosecatholicmen.com">Those Catholic Men</a> &copy; <?php echo date("Y"); ?>
-			</span>
-        </div>
-        <div class=" small-12 el--small-text-center medium-6 el--medium-text-right columns">
-            <a href="http://thosecatholicmen.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer-logo.png" alt="Those Catholic Men" /></a>
-        </div>
+	<div class="row">
+        <p style="float:left; color: white;">&copy;<?php echo date("Y"); ?> Exodus 90</p>
+        <a style="float:right" href="https://www.iubenda.com/privacy-policy/8280995/full-legal">Privacy Policy</a>
     </div>
 </footer>
 
-<div class="transitioner">
-	<a href="http://thosecatholicmen.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/triangle.png" /></a>
-</div>
-
 <?php wp_footer(); ?>
+
 <?php if ($embed_magnific_js) { ?>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script>
