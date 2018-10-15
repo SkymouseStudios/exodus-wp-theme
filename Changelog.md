@@ -1,5 +1,12 @@
 # Exodus 90 Theme - Changelog
 
+*Version 2.0.1 - Oct 11, 2018*
+
+Delete Those Catholic Men Branding
+- Remove Logo in footer
+- Remove copyright in footer
+- hard-coded the privacy policy in theme
+
 *Version 2.0.0 - Sept 13, 2018*
 
 - New navigation
