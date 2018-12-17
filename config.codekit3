@@ -742,12 +742,6 @@
 		"oAP": "/exodus-wp-theme/content.php",
 		"oF": 0
 		},
-	"/exodus-wp-theme": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/exodus-wp-theme/exodus-wp-theme",
-		"oF": 0
-		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -994,7 +988,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/screenshot.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 566532848.79837894
+	"lastBuiltDate": 566752604.84745598
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

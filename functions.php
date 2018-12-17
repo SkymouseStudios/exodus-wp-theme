@@ -58,6 +58,17 @@ function themename_register_dynamic_sidebars() {
 }
 add_action( 'widgets_init', 'themename_register_dynamic_sidebars' );
 
+
+function themename_register_nav_menus() {
+	register_nav_menus(
+		array(
+			'primary-nav' => __( 'Primary Navigation', '%Text_Domain%' ),
+		)
+	);
+}
+add_action( 'init', 'themename_register_nav_menus' );
+
+
 /**
  * Register and enqueue theme styles and scripts.
  */
