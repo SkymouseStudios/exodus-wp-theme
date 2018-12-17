@@ -120,7 +120,7 @@ function exodus_site_logo() {
 register_nav_menus(
 	array(
 		'primary-nav' => __( 'Primary Navigation', '%Text_Domain%' ),   // main nav in header
-		'top-nav' => __( 'Utility Navigation', '%Text_Domain%' ), // Bar above the header
+		'footer-nav' => __( 'Footer Navigation', '%Text_Domain%' ), // Bar above the header
 		'mobile-nav' => __( 'The Mobile Menu', '%Text_Domain%' ) // Mobile navigation
 	)
 );

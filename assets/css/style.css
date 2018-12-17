@@ -2240,8 +2240,7 @@ footer {
     padding-top: 25px; }
     footer .row img {
       height: 70px;
-      display: inline-block;
-      margin-top: 20px; }
+      display: inline-block; }
     footer .row span {
       display: block;
       color: #CCCCCC;
@@ -3353,8 +3352,10 @@ input[type="text"].datepicker {
 
 .page-wrap #content.article-push {
   padding-top: 160px; }
-.page-wrap #content.front-page {
-  padding-top: 75px; }
+
+/* Skymouse disabled because the top bar was deleted.
+  .page-wrap #content.front-page {
+  padding-top: 75px; }*/
 
 .request {
   background-color: #222b33;

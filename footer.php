@@ -10,12 +10,32 @@ global $embed_magnific_js;
 
 </div> <!-- Closing .page-wrap -->
 
-<footer class="ninety-bg" style="background: #2C3842;">
-	<div class="row">
-        <p style="float:left; color: white;">&copy;<?php echo date("Y"); ?> Exodus 90</p>
-        <a style="float:right" href="https://www.iubenda.com/privacy-policy/8280995/full-legal">Privacy Policy</a>
-    </div>
-</footer>
+<?php
+    if ( is_page_template('page-landing.php') ) {
+
+    } else { ?>
+
+        <footer class="ninety-bg">
+        	<div class="row">
+
+                <div class="footer-logo">
+                    <a class="" href="/" title="Exodus 90">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.svg" alt="Exodus 90"></span>
+                    </a>
+                    <p><?php printf( get_bloginfo ( 'description' ) ); ?></p>
+                    <p>&copy;<?php echo date("Y"); ?> Exodus 90</p>
+                    <a style="color: #b66144; font-weight: 300;" href="https://www.iubenda.com/privacy-policy/8280995/full-legal">Privacy Policy</a>
+                </div>
+                
+
+                <nav class="footer-navigation">
+                 <?php wp_nav_menu( array( 
+                        'theme_location' => 'footer-nav'
+                      )); ?>
+                </nav>
+            </div>
+        </footer>
+<?php } ?>
 
 <?php wp_footer(); ?>
 

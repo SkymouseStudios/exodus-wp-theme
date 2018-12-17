@@ -16,7 +16,63 @@
 	margin-top: 15px;
 }
 
+.pad {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
 // Hacks
+#landing {
+	grid-gap: 0px;
+	width: auto;
+	padding: 0;
+
+	.align {
+		display: flex;
+		align-items: center;
+	}
+
+	.header {
+		height: auto;
+		background-color: transparent;
+		width: 100%;
+
+		&::before {
+			opacity: 0;
+		}
+
+		h1 {
+			//color: #717171;
+			max-width: 500px;
+			margin: 0 auto;
+		}
+
+		.post-subline {
+			//color: #717171;
+		} 
+
+		img {
+			padding-bottom: 20px;
+			max-width: 200px;
+		}
+	}
+
+	article {
+		color: #717171;
+		max-width: 600px;
+		margin: 0 auto;
+		padding-top: 30px;
+
+		strong {
+			color: $orange;
+		}
+
+		p {
+			padding-left: 30px;
+			padding-right: 30px;	
+		}
+	}
+}
 
 #content.front-page .hero-inner {
     padding-top: 180px;
@@ -25,9 +81,10 @@
 
 p.subheading {
 	color: $gray;
-	font-size: 1.5em;
-	line-height: 1.2em;
+	font-size: 1.2em;
+	line-height: 1.4em;
 	margin: 0 auto;
+	margin-top: 15px;
 	max-width: 450px;
 	text-align: center;
 }
@@ -56,7 +113,7 @@ p.subheading {
 
 	.post-subline {
 		font-size: 1.9em;
-		line-height: 1.2em;
+		line-height: 1.4em;
 		max-width: 500px;
 		margin: 0 auto;
 	}
@@ -88,7 +145,7 @@ section.panel {
 	display: grid;
 	z-index: 1;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	grid-gap: 30px;
+	grid-gap: 50px;
 	grid-auto-rows: minmax(50px, auto);
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -128,9 +185,18 @@ section.panel {
 		}
 	}
 
+	.block-orange {
+		background-color: $orange;
+	}
+
 	.main-text {
 		color: $gray;
 	}
+}
+
+.words {
+	display: flex;
+	align-items: center;
 }
 
 .section-Right {
@@ -166,10 +232,10 @@ section.panel {
 
 // Section with Single Call out quote
 section#quoteCallout {
+	color: $gray;
 	text-align: center;
-	color: white;
 	padding: 0px 20px;
-	background-color: lighten($orange, 10%);
+	background-color: #f8f6f3;
 	padding-bottom: 15px;
 	margin-top: 100px;
 
@@ -251,16 +317,17 @@ section.grid {
 
 #featureGrid {
 	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 150px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 80px;
 	grid-auto-rows: minmax(100px, auto);
 	-ms-flex-line-pack: justify;
 	align-content: space-between;
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
-	
+	max-width: 1200px;
+	margin: 0 auto;
 
 	.feature {
 		text-align: center;
@@ -268,6 +335,17 @@ section.grid {
 
 	.feature img {
 		width: 150px;
+	}
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+    grid-gap: 40px;
+    grid-auto-rows: repeat(4, 1fr);
+
+	img {
+		width: 80%;
 	}
 }
 
@@ -281,6 +359,8 @@ section.grid {
 
 	h1 {
 		color: $orange;
+		max-width: 750px;
+		margin: 0 auto;
 	}
 
 	.wpcf7 {
@@ -296,9 +376,100 @@ section.grid {
 	}
 }
 
-@media only screen and (min-width: 768px) {
-	.words {
-		padding-top: 25%;
+
+
+.get-started img {
+	max-width: 100%;
+	width: 100%;
+}
+
+footer {
+	background-color: #EF7449;
+	padding: 20px;
+
+	.row {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+
+	img {
+		margin: 0;
+	}
+}
+
+.footer-logo {
+	color: white;
+	text-align: center;
+
+	img {
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+
+	p {
+		font-size: 0.9em;
+	}
+}
+
+.menu-footer-navigation-container {
+
+	> ul {
+
+		> li {
+			padding: 0 35px;
+			display: block;
+
+			> a {
+				margin-bottom: 15px;
+				color: #b66144;
+			}
+
+			ul {
+				margin: 0px;
+
+				li {
+					margin-top: 15px;
+				}
+
+				li > a {
+					font-weight: 300;
+					color: white;
+					padding-bottom: 3px;
+
+					&:hover {
+						border-bottom: 2px solid #EF643A;
+					}
+				}
+			}
+		}
+	}
+}
+
+// mobile settings
+@media only screen and (min-width: 600px) {
+	#secondPanel {
+		grid-column: 1;
+	}
+
+	#landing .align {
+		height: 100vh;
+
+		.header {
+			padding: 0;
+		}
+
+		article {
+			padding-top: 0;
+		}
+	}
+
+	.footer-logo {
+		text-align: left;
+		float: left;
+	}
+
+	footer {
+		padding: 0px;
 	}
 }
 
@@ -315,16 +486,12 @@ section.grid {
 		}	
 	}
 
-	section#quoteCallout {
-		width: 80%;
-	}
-
 	section {
 		margin: 40px auto 100px auto; 
 	}
-}
 
-.get-started img {
-	max-width: 100%;
-	width: 100%;
-}
+	.menu-footer-navigation-container > ul {
+		display: flex;
+		float: right;
+	}
+} // end Desktop files

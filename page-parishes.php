@@ -88,7 +88,7 @@ get_header(); ?>
 				<?php 
 					// If no video link, just show the version with text.
 					} else { ?>
-						<div id="orangeBlock">
+						<div id="orangeBlock" class="block-orange">
 							<p><?php echo $main_panel_highlight; ?></p>
 							<a href="<?php echo $main_panel_link_url; ?>"><?php echo $main_panel_link_text; ?></a>
 						</div>
@@ -109,30 +109,7 @@ get_header(); ?>
 				<p class="callout-person"><?php echo $quote_callout_person; ?></p>
 			</section>
 
-		<!-- Panels -->
-			<h2><?php echo $section_title; ?></h2>
-			<?php 
-			if( have_rows('section') ):
-
-		 	// loop through the rows of data
-		    while ( have_rows('section') ) : the_row(); 
-		    	$img = get_sub_field('img'); ?>
-
-		        <section class="panel section-<?php the_sub_field('align'); ?>">
-					<div class="words">
-						<h3><?php the_sub_field('title');?></h3>
-						<p><?php the_sub_field('text'); ?></p>
-					</div>
-					<div class="image">
-						<img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt']; ?>" />
-					</div>
-				</section>
-			<?php
-			    endwhile;
-			endif;
-	 		?>
-
-	 	<!-- Feature Grid, if it exists -->
+		<!-- Feature Grid, if it exists -->
 	 		<?php 
 			if( have_rows('grid_repeater') ): ?>
 				<section class="grid">
@@ -153,6 +130,31 @@ get_header(); ?>
 				endif;
 	 		?>
 
+		<!-- Panels -->
+			<h2><?php echo $section_title; ?></h2>
+			<?php 
+			if( have_rows('section') ):
+
+		 	// loop through the rows of data
+		    while ( have_rows('section') ) : the_row(); 
+		    	$img = get_sub_field('img'); ?>
+
+		        <section class="panel pad section-<?php the_sub_field('align'); ?>">
+					<div class="words">
+						<div>
+							<h3><?php the_sub_field('title');?></h3>
+							<p><?php the_sub_field('text'); ?></p>
+						</div>
+					</div>
+					<div class="image">
+						<img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt']; ?>" />
+					</div>
+				</section>
+			<?php
+			    endwhile;
+			endif;
+	 		?>
+
 		<!-- Contact Form -->
 			<section id="Contact">
 				<h1><?php echo $contact_title; ?></h1>
@@ -160,29 +162,33 @@ get_header(); ?>
 				<?php echo do_shortcode( get_field('contact_form', false, false) ); ?>
 			</section>
 
-			<!-- Testimonial block (Shows Three) -->
-			<section id="quoteBlock">
-				<?php 
-				if( have_rows('quote') ):
-
-				 	// loop through the rows of data
-				    while ( have_rows('quote') ) : the_row(); 
-				    	$img = get_sub_field('img'); ?>
-						<div class="quote">
-				        
-							<img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt']; ?>" />
+		<!-- Testimonial block (Shows Three) -->
+		
+			<?php 
+			if( have_rows('quote') ): ?>
+				<section id="quoteBlock">
+			<?php  
+			 	// loop through the rows of data
+			    while ( have_rows('quote') ) : the_row(); 
+			    	$img = get_sub_field('img'); ?>
+					<div class="quote">
+			        
+						<img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt']; ?>" />
+						
+						<div class="quote-words">
 							
-							<div class="quote-words">
-								
-								<?php the_sub_field('text'); ?>
-								<p class="small-text"><?php the_sub_field('person');?></p>
-							</div>
+							<?php the_sub_field('text'); ?>
+							<p class="small-text"><?php the_sub_field('person');?></p>
 						</div>
-				<?php
-				    endwhile;
-				endif;
-		 		?>
-		 	</section>
+					</div>
+			<?php
+			    endwhile;
+			   ?>
+				</section>
+			   <?php
+			endif;
+	 		?>
+		 	
 
 		</div>
 	</article><!-- #post-<?php the_ID(); ?> -->

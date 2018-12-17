@@ -27,7 +27,7 @@ get_header(); ?>
                     <a href="/support">Support Articles</a>
                     <hr>
                     <h4>Email</h4>
-                    <a href="mailto:email@thosecatholicmen.com">email@thosecatholicmen.com</a><br>
+                    <a href="mailto:support@exodus90.com">support@exodus90.com</a><br>
                     <hr>
                     <h4>Social</h4>
                     <a href="https://twitter.com/TCatholicMen">Twitter</a><br>

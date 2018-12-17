@@ -15,7 +15,7 @@
 		"uuidString": "D6E1AC06-5890-47EE-9043-40F077B605F6"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28905",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -839,6 +839,13 @@
 		"oAP": "/exodus-wp-theme/page-hook-shopify-order.php",
 		"oF": 0
 		},
+	"/page-landing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/exodus-wp-theme/page-landing.php",
+		"oF": 0
+		},
 	"/page-media.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -987,7 +994,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/screenshot.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560970383.56155097
+	"lastBuiltDate": 566532848.79837894
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

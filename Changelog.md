@@ -1,8 +1,19 @@
 # Exodus 90 Theme - Changelog
 
+*Version 2.2.0 - Dec 17, 2018*
+
+- added copyright symbol to logo
+- deleted some commented out styles
+- added styles for the new team page
+- restyled the footer
+- fixed some styling issues with landing pages
+- changed the contact info on the contact page
+- NEW: temp "get started" page until the end of the new year.
+- NEW: page template for parishes
+
 *Version 2.0.1 - Oct 11, 2018*
 
-Delete Those Catholic Men Branding
+- Delete Those Catholic Men Branding
 - Remove Logo in footer
 - Remove copyright in footer
 - hard-coded the privacy policy in theme
