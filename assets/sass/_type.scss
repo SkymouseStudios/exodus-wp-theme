@@ -92,10 +92,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 h1, h2, h3 {
     line-height: 1.25em;
+    color: #252525;
 }
 
 h1, .h1 {
-    font-size: 2em;
+    font-size: 5em;
     @include break($medium) {
         font-size: 4em;
     }

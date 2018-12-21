@@ -299,6 +299,16 @@
 		"oT": 1,
 		"q": 84
 		},
+	"/assets/img/earth-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/assets/img/earth-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/assets/img/exoconcept_bg.jpg": {
 		"ft": 16384,
 		"iS": 37393,
@@ -783,12 +793,6 @@
 		"oAP": "/exodus-wp-theme/content.php",
 		"oF": 0
 		},
-	"/exodus-wp-theme": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/exodus-wp-theme/exodus-wp-theme",
-		"oF": 0
-		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -880,11 +884,11 @@
 		"oAP": "/exodus-wp-theme/page-get-started.php",
 		"oF": 0
 		},
-	"/page-hook-shopify-order.php": {
+	"/page-home-2019.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/exodus-wp-theme/page-hook-shopify-order.php",
+		"oAP": "/exodus-wp-theme/page-home-2019.php",
 		"oF": 0
 		},
 	"/page-landing.php": {
@@ -927,34 +931,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/partial-preview-email-signup.php",
-		"oF": 0
-		},
-	"/partial-product-tiers.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/exodus-wp-theme/partial-product-tiers.php",
-		"oF": 0
-		},
-	"/partial-shopify-digital-print-plan.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/exodus-wp-theme/partial-shopify-digital-print-plan.php",
-		"oF": 0
-		},
-	"/partial-shopify-digital.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/exodus-wp-theme/partial-shopify-digital.php",
-		"oF": 0
-		},
-	"/partial-shopify-premium-plan.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/exodus-wp-theme/partial-shopify-premium-plan.php",
 		"oF": 0
 		},
 	"/README.md": {
@@ -1007,13 +983,6 @@
 		"oAP": "/exodus-wp-theme/sidebar.php",
 		"oF": 0
 		},
-	"/single-product.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/exodus-wp-theme/single-product.php",
-		"oF": 0
-		},
 	"/single.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1042,7 +1011,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/screenshot.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 567113138.68850696
+	"lastBuiltDate": 567124240.46274698
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
