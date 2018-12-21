@@ -265,10 +265,10 @@ input[type="button"],
 button,
 .button {
     -webkit-appearance: none;
-    border-radius: 0;
+    border-radius: 5px;
     appearance: none;
     display: inline-block;
-    padding: em(8px) em(24px);
+    padding: 0.75em;
     text-align: center;
     background: transparent;
     text-align: center;
@@ -416,8 +416,8 @@ input[type="file"] {
 /* HTML5 Number spinners settings */
 /* We add basic fieldset styling */
 fieldset {
-    border: 1px solid #DDDDDD;
-    padding: 1.25em;
+    // border: 1px solid #DDDDDD;
+    // padding: 1.25em;
     margin: 1.125em 0;
 }
 

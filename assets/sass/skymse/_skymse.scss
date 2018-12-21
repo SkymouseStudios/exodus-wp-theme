@@ -21,7 +21,110 @@
 	padding-bottom: 5%;
 }
 
+.icon {
+	width: 80px;
+}
+
+.tiny-text {
+	font-size: .7em;
+	margin: 0;
+}
+
+.kill-margin {
+	margin: 0;
+}
+
 // Hacks
+#HomeHero {
+	.orange-top {
+		padding: 60px 0 20px 0;
+		background-color: $orange;
+
+		h1 {
+			font-size: 5em;
+			color: white;
+		}
+	}
+
+	#Smartphone {
+		position: absolute;
+		bottom: 0px;
+		width: 350px;
+		right: 50px;
+	}
+}
+
+.app-sign-up {
+
+	input {
+		display: inline-block;
+	}
+
+	input[type="email"] {
+		width: 70%;
+	}
+}
+
+.the-world {
+	background-image: url('https://exodus90.com/wp-content/uploads/2018/12/earth.jpg');
+	background-size: cover;
+	background-position: top;
+	padding: 150px 0 200px 0;
+	text-align: center;
+}
+
+.grid-three-quarters {
+	display: grid;
+	z-index: 1;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 50px;
+	grid-auto-rows: minmax(50px, auto);
+
+	.ab {
+		grid-column: span 2;
+	}
+
+	.c {
+		grid-column: span 1;
+	}
+}
+	
+#Home {
+	h4 {
+		color: $orange;
+	}
+
+	video {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.sectionizer-header {
+		text-align: center;
+		position: relative;
+
+		h2 {
+			position: absolute;
+			z-index: 2;
+			left: 0px;
+			right: 0px;
+			top: 20px;
+			font-size: 4em;
+		}
+
+		.title-background {
+			opacity: .5;
+			z-index: 0;
+			width: 300px;
+			margin: 0 auto;
+		}
+	}
+
+	#quoteBlock {
+		margin-top: 0px;
+	}
+}
+
 #landing {
 	grid-gap: 0px;
 	width: auto;
@@ -168,7 +271,6 @@ section.panel {
 		}
 
 		p {
-			font-family: "Bitter";
 			font-size: 3em;
 			line-height: 1.2em;
 		}

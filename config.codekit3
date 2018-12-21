@@ -88,6 +88,37 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/assets/font/BebasNeue-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/exodus-wp-theme/assets/font/BebasNeue-webfont.eot",
+		"oF": 0
+		},
+	"/assets/font/BebasNeue-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/assets/font/BebasNeue-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/font/BebasNeue-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/exodus-wp-theme/assets/font/BebasNeue-webfont.ttf",
+		"oF": 0
+		},
+	"/assets/font/BebasNeue-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/exodus-wp-theme/assets/font/BebasNeue-webfont.woff",
+		"oF": 0
+		},
 	"/assets/font/fontello.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -158,6 +189,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 84
+		},
+	"/assets/img/are-you-ready-for-more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/assets/img/are-you-ready-for-more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/assets/img/brand-mark-circle.png": {
 		"ft": 32768,
@@ -742,6 +783,12 @@
 		"oAP": "/exodus-wp-theme/content.php",
 		"oF": 0
 		},
+	"/exodus-wp-theme": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/exodus-wp-theme/exodus-wp-theme",
+		"oF": 0
+		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -789,6 +836,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/admin.php",
+		"oF": 0
+		},
+	"/includes/partials/app-signup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/exodus-wp-theme/includes/partials/app-signup.php",
 		"oF": 0
 		},
 	"/includes/partials/home-promotion-tier.php": {
@@ -988,7 +1042,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/screenshot.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 566752604.84745598
+	"lastBuiltDate": 567112729.83125699
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

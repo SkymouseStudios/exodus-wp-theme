@@ -75,9 +75,7 @@ add_action( 'init', 'themename_register_nav_menus' );
 function themename_register_styles_scripts() {
 
 	/* Stylesheets */
-	wp_register_style('bitter', '//fonts.googleapis.com/css?family=Bitter:400,700');
-	wp_register_style('roboto', '//fonts.googleapis.com/css?family=Roboto:400,700');
-	wp_register_style( 'googlefonts', '//fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+	wp_register_style('bitter', '//fonts.googleapis.com/css?family=Lato:300,400,700');
 	wp_register_style( 'styles', get_stylesheet_directory_uri() . '/assets/css/style.css', null, null, 'all' );
 
 	// Editor stylesheets.
@@ -88,8 +86,7 @@ function themename_register_styles_scripts() {
 	wp_register_script( 'scripts', get_stylesheet_directory_uri() . '/assets/js/min/scripts-min.js', array( 'jquery' ), null, true );
 
 	if ( ! is_admin() && ! is_login_page() ) {
-		wp_enqueue_style( 'bitter' );;
-		wp_enqueue_style( 'roboto' );
+		wp_enqueue_style( 'lato' );;
 		wp_enqueue_style( 'styles' );
 
 		wp_enqueue_script( 'masonry' );

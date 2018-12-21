@@ -52,7 +52,7 @@ a img {
 /* Default paragraph styles */
 p {
     font-family: inherit;
-    font-weight: normal;
+    font-weight: 300;
     font-size: em($base-font-size);
     margin-bottom: 1em;
     text-rendering: optimizeLegibility;
@@ -75,7 +75,7 @@ p aside {
 }
 
 /* Default header styles */
-h1, h2, h3, h4, h5, h6 {
+h1, h2,  {
     font-family: $heading-font-family;
     font-weight: bold;
     font-style: normal;
@@ -94,22 +94,23 @@ h1, h2, h3 {
     line-height: 1.25em;
 }
 
-h1 {
-    font-size: 1.5em;
+h1, .h1 {
+    font-size: 2em;
     @include break($medium) {
-        font-size: 3.052em;
+        font-size: 4em;
     }
 }
 
 h2 {
-     font-size: 1.5em;
+     font-size: 2.5em;
     @include break($medium) {
-        font-size: 2em;
+        font-size: 3em;
     }
 }
 
 h3 {
     font-size: 1.25em;
+    font-weight: 700;
     @include break($medium) {
         font-size: 1.5em;
     }
