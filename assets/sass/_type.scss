@@ -102,24 +102,27 @@ h1, .h1 {
 }
 
 h2 {
-     font-size: 2.5em;
+    font-weight: 700;
+    font-size: 2.5em;
     @include break($medium) {
         font-size: 3em;
     }
 }
 
 h3 {
+    font-weight: 700;
     font-size: 1.25em;
     font-weight: 700;
     @include break($medium) {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
 h4 {
-    font-size: 1em;
+    font-weight: 700;
+    font-size: 1.5em;
     @include break($medium) {
-        font-size: 1.1em;
+        font-size: 1.1.5em;
     }
 }
 
