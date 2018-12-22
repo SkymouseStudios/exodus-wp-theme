@@ -47,6 +47,7 @@
 	}
 
 	#Smartphone {
+		display: none;
 		position: absolute;
 		bottom: 0px;
 		width: 350px;
@@ -99,7 +100,7 @@
 	}
 
 	video {
-		width: 70%;
+		width: 100%;
 		margin: 0 auto;
 	}
 
@@ -125,6 +126,14 @@
 
 	#quoteBlock {
 		margin-top: 0px;
+	}
+
+	.section-Right img {
+		transform: none;
+	}
+
+	.section-Left img {
+		transform: none;
 	}
 }
 
@@ -551,6 +560,7 @@ footer {
 
 // mobile settings
 @media only screen and (min-width: 600px) {
+
 	#secondPanel {
 		grid-column: 1;
 	}
@@ -584,6 +594,10 @@ footer {
 
 // Desktop Styles
 @media only screen and (min-width: 1030px) {
+	#HomeHero #Smartphone {
+		display: block;
+	}
+
 	section.panel, section#quoteCallout {
 		width: 1000px;
 	}

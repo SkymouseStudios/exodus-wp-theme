@@ -6,6 +6,7 @@
 * @author %Author%
 */
 get_header(); ?>
+
 <div id="content" class="front-page full-width" data-template-name="front-page">
 <?php while ( have_posts() ) : the_post(); ?>
 	<?php $postThumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
@@ -30,7 +31,7 @@ get_header(); ?>
 	<div class="hero text-center" id="fullpage" style="">
 		<div class="header-video">
 			<video playsinline controls loop="" muted="false" autoplay="" title="Exodus90 Intro" poster="https://exodus90.com/wp-content/uploads/2018/08/exodus-90-bg.png" class="fullscreen">
-			<source src="https://exodus90.com/wp-content/uploads/2018/08/Exodus-90Draft4-2.mp4" type="video/mp4">
+				<source src="https://exodus90.com/wp-content/uploads/2018/08/Exodus-90Draft4-2.mp4" type="video/mp4">
 			</video>
 		</div>
 		
