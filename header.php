@@ -36,35 +36,37 @@
       <?php
         if ( is_page_template('page-landing.php') ) {
 
+        } elseif ( is_page_template('page-home-2019.php') && !( is_home() || is_front_page() ) ) {
+
         } else { ?>
 
-        <div class="navigation-wrap">
-            
-            <header class="reg">
-                <div class="mobile-menu-icon">
-                    <button class="hamburger" style="padding-right: 40px;">☰</button>
-                    <button class="cross" style="padding-right: 40px; display: none;">˟</button>
-                </div>
-                
-                <a class="exodus-logo" href="/" title="Exodus 90">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.svg" alt="Exodus 90"></span>
-                </a>
-                       
-                <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
-                  <?php wp_nav_menu( array( 
-                          'container' => false,
-                          'theme_location' => 'primary-nav', 
-                          'container_class' => 'primary-navigation' 
-                        )); ?>
-                </nav>  
-            </header>
+          <div class="navigation-wrap">
+              
+              <header class="reg">
+                  <div class="mobile-menu-icon">
+                      <button class="hamburger" style="padding-right: 40px;">☰</button>
+                      <button class="cross" style="padding-right: 40px; display: none;">˟</button>
+                  </div>
+                  
+                  <a class="exodus-logo" href="/" title="Exodus 90">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.svg" alt="Exodus 90"></span>
+                  </a>
+                         
+                  <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                    <?php wp_nav_menu( array( 
+                            'container' => false,
+                            'theme_location' => 'primary-nav', 
+                            'container_class' => 'primary-navigation' 
+                          )); ?>
+                  </nav>  
+              </header>
 
-            <div class="mobile-navigation" style="display: none;">
-                <?php wp_nav_menu( array( 
-                          'container' => false,
-                          'theme_location' => 'mobile-nav', 
-                          'container_class' => 'mobile-navigation' 
-                        )); ?>
-            </div>
-        </div>
+              <div class="mobile-navigation" style="display: none;">
+                  <?php wp_nav_menu( array( 
+                            'container' => false,
+                            'theme_location' => 'mobile-nav', 
+                            'container_class' => 'mobile-navigation' 
+                          )); ?>
+              </div>
+          </div>
       <?php } ?>

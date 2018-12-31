@@ -25,6 +25,17 @@
 	width: 80px;
 }
 
+.guest-logos {
+	display: flex;
+    padding-top: 30px;
+    align-items: center;
+
+	img {
+		width: 200px;
+		margin: 0 30px;
+	}
+}
+
 .tiny-text {
 	font-size: .7em;
 	margin: 0;
@@ -34,10 +45,19 @@
 	margin: 0;
 }
 
+#countdown {
+	text-align: center;
+	color: $orange;
+
+	span {
+		color: gray;
+	}
+}
+
 // Hacks
 #HomeHero {
 	.orange-top {
-		padding: 60px 0 20px 0;
+		padding: 0px 0 20px 0;
 		background-color: $orange;
 
 		h1 {
@@ -54,6 +74,10 @@
 		right: 50px;
 		transform: rotatez(15deg);
 	}
+
+	#countdown { 
+		text-align: left;
+	}
 }
 
 .app-sign-up {
@@ -66,6 +90,8 @@
 		width: 70%;
 	}
 }
+
+// -------- the 2019 homepage
 
 .the-world {
 	background-image: url('../img/earth-01.svg');
@@ -137,6 +163,8 @@
 	}
 }
 
+// ------ Landing Page for Viral Loops
+
 #landing {
 	grid-gap: 0px;
 	width: auto;
@@ -157,7 +185,7 @@
 		}
 
 		h1 {
-			//color: #717171;
+			color: white;
 			max-width: 500px;
 			margin: 0 auto;
 		}
@@ -204,7 +232,8 @@ p.subheading {
 	text-align: center;
 }
 
-// New Header Styles
+// New Homepage Video Header Styles
+
 .header {
 	padding-top: 200px;
 	padding-bottom: 200px;
@@ -565,7 +594,7 @@ footer {
 		grid-column: 1;
 	}
 
-	.orange-top img {
+	.title-logo img {
 		width: 50%;
 
 	}

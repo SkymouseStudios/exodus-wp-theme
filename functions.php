@@ -62,10 +62,13 @@ add_action( 'widgets_init', 'themename_register_dynamic_sidebars' );
 function themename_register_nav_menus() {
 	register_nav_menus(
 		array(
-			'primary-nav' => __( 'Primary Navigation', '%Text_Domain%' ),
+			'primary-nav' => __( 'Primary Navigation', '%Text_Domain%' ),   // main nav in header
+			'footer-nav' => __( 'Footer Navigation', '%Text_Domain%' ), // Bar above the header
+			'mobile-nav' => __( 'The Mobile Menu', '%Text_Domain%' ) // Mobile navigation
 		)
 	);
 }
+
 add_action( 'init', 'themename_register_nav_menus' );
 
 
@@ -123,20 +126,6 @@ function exodus_site_logo() {
 		esc_html(get_bloginfo('name')),
 		'<img src="' . get_stylesheet_directory_uri() . '/assets/img/logo.svg" alt="' . esc_html(get_bloginfo('name')) . '" />'
 	);
-}
-
-register_nav_menus(
-	array(
-		'primary-nav' => __( 'Primary Navigation', '%Text_Domain%' ),   // main nav in header
-		'footer-nav' => __( 'Footer Navigation', '%Text_Domain%' ), // Bar above the header
-		'mobile-nav' => __( 'The Mobile Menu', '%Text_Domain%' ) // Mobile navigation
-	)
-);
-
-if (!function_exists('primary_navigation')) {
-    function primary_navigation() {
-        wp_nav_menu(array('container' => false, 'theme_location' => 'primary-nav'));
-    }
 }
 
 /**

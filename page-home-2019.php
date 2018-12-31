@@ -15,12 +15,28 @@ get_header(); ?>
 		$quote_callout_text = get_field('quote_callout_text');
 		$quote_callout_person = get_field('quote_callout_person');
 
+		$guest_logo = get_field('guest_logo');
 	?>
 	
 	<!-- Panel 1 Header -->
 	<div id="HomeHero" class="hero">
 		<div class="orange-top">
-			<section class="panel">
+			<?php if ( !( is_home() || is_front_page() ) ) { ?>
+				<div>
+					<div class="guest-logos">
+						<div style="flex-grow: 2"></div>
+	            
+	            		<?php if ( $guest_logo != null ) { ?>
+	            			<img src="<?php echo $guest_logo; ?>" alt="">
+	            		<?php } ?>
+	            		<div style="flex-grow: 2"></div>
+					</div>
+				</div>
+				
+			<?php } ?>
+			
+
+			<section class="panel title-logo">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/are-you-ready-for-more.svg" alt="Are You Ready For More">
 			</section>
 		</div>
