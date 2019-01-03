@@ -200,6 +200,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/assets/img/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/assets/img/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/assets/img/brand-mark-circle.png": {
 		"ft": 32768,
 		"iS": 29978,
@@ -806,13 +816,6 @@
 		"oAP": "/exodus-wp-theme/footer.php",
 		"oF": 0
 		},
-	"/front-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/exodus-wp-theme/front-page.php",
-		"oF": 0
-		},
 	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1017,7 +1020,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/screenshot.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 567231059.93150604
+	"lastBuiltDate": 568070483.71757102
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

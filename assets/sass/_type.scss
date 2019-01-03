@@ -92,7 +92,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 h1, h2, h3 {
     line-height: 1.25em;
-    color: #252525;
+    color: $black;
 }
 
 h1, .h1 {
@@ -121,7 +121,9 @@ h3 {
 
 h4 {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    color: $orange;
+    line-height: 1.3em;
     @include break($medium) {
         font-size: 1.1.5em;
     }

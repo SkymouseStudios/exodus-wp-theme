@@ -42,13 +42,13 @@ get_header(); ?>
 	?>
 
 	<?php if ($postThumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID))): ?>
-		<div class="header" style="background: url(<?php echo $postThumbnail; ?>) no-repeat center;background-size: cover;">
+		<div class="header-orange" style="background: url(<?php echo $postThumbnail; ?>) no-repeat center;background-size: cover;">
 			<h1 class="post-title">
 				<?php exodus_custom_field('headline'); ?>
 			</h1>
 			
 			<?php if ( $subline = exodus_get_custom_field('subline')) { ?>
-				<div class="post-subline">
+				<div class="big-text">
 					<?php echo $subline; ?>
 				</div>
 			<?php } ?>

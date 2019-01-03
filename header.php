@@ -36,8 +36,6 @@
       <?php
         if ( is_page_template('page-landing.php') ) {
 
-        } elseif ( is_page_template('page-home-2019.php') && !( is_home() || is_front_page() ) ) {
-
         } else { ?>
 
           <div class="navigation-wrap">
