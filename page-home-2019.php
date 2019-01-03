@@ -20,6 +20,11 @@ get_header(); ?>
 	
 	<!-- Panel 1 Header -->
 	<div id="HomeHero" class="hero">
+
+		<video playsinline controls loop="" muted="false" autoplay="" title="Exodus90 Intro" poster="https://exodus90.com/wp-content/uploads/2018/08/exodus-90-bg.png" class="">
+			<source src="https://exodus90.com/wp-content/uploads/2018/08/Exodus-90Draft4-2.mp4" type="video/mp4">
+		</video>
+
 		<div class="orange-top">
 			<?php if ( !( is_home() || is_front_page() ) ) { ?>
 				<div>
@@ -55,17 +60,6 @@ get_header(); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class( 'primary' ); ?> role="main">
 		
 		<div class="post-content">
-			<!-- Panel 2 Video -->
-			<div style="text-align: center">
-				<img class="icon pad" src="https://exodus90.com/wp-content/uploads/2018/12/mountain.png" alt="Mountain Icon">
-			</div>
-			
-			
-			<section class="panel pad">
-				<video playsinline controls loop="" muted="false" autoplay="" title="Exodus90 Intro" poster="https://exodus90.com/wp-content/uploads/2018/08/exodus-90-bg.png" class="">
-					<source src="https://exodus90.com/wp-content/uploads/2018/08/Exodus-90Draft4-2.mp4" type="video/mp4">
-				</video>
-			</section>
 
 		<!-- Panel 3 (Repeat Sections) -->
 		
@@ -95,6 +89,7 @@ get_header(); ?>
 					<img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt']; ?>" />
 				</div>
 			</section>
+
 		<?php
 		    endwhile;
 		endif;
@@ -104,7 +99,8 @@ get_header(); ?>
 		<section class="panel pad">
 			<div class="grid-three-quarters ">
 				<div class="ab">
-					<h2 class="h1">Get Started for Free.</h2>
+					<h2 style="line-height: 0.8em; margin: 0" class="h1">Get Started for Free.</h2>
+					<p>Only $9.99/month for three months.</p>
 					<?php get_template_part( 'includes/partials/app-signup' ); ?>
 				</div>
 				
@@ -119,34 +115,10 @@ get_header(); ?>
 		
 		<!-- Panel 4 (Reviews) -->
 		<div class="the-world">
-			<h2 class="h1">The World Over</h2>
-			<p>Join 7,000+ men across the globe in the Exodus brotherhood.</p>
+			<h2>Exodus 90 changes the world.</h2>
+			<p>Exodus is a non-profit working to change the world, one free man at a time. All proceeds goes towards reaching more men, keeping our systems running and furthering the Exodus Mission.</p>
 		</div>
 		
-		<?php 
-		if( have_rows('quote') ): ?>
-			<section id="quoteBlock">
-		<?php  
-		 	// loop through the rows of data
-		    while ( have_rows('quote') ) : the_row(); 
-		    	$img = get_sub_field('img'); ?>
-				<div class="quote">
-		        
-					<img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt']; ?>" />
-					
-					<div class="quote-words">
-						
-						<?php the_sub_field('text'); ?>
-						<p class="small-text"><?php the_sub_field('person');?></p>
-					</div>
-				</div>
-		<?php
-		    endwhile;
-		   ?>
-			</section>
-		   <?php
-		endif;
-			?>
 	</div><!-- end post-content -->
 	</article>
 

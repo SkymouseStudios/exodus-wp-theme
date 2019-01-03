@@ -43,7 +43,7 @@ get_header(); ?>
 
 	<?php if ($postThumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID))): ?>
 		<div class="header" style="background: url(<?php echo $postThumbnail; ?>) no-repeat center;background-size: cover;">
-			<h1 class="post-title">
+			<h1 style="color: white">
 				<?php exodus_custom_field('headline'); ?>
 			</h1>
 			

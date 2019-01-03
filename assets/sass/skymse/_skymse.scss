@@ -25,13 +25,17 @@
 	width: 80px;
 }
 
+hr {
+	border: solid 3px #eaeaea;
+}
+
 .guest-logos {
 	display: flex;
     padding-top: 30px;
     align-items: center;
 
 	img {
-		width: 200px;
+		width: 300px;
 		margin: 0 30px;
 	}
 }
@@ -97,9 +101,14 @@
 	background-image: url('../img/earth-01.svg');
 	background-size: 80%;
 	background-position: top;
-	padding: 150px 0 200px 0;
+	padding: 100px 0;
 	text-align: center;
 	background-repeat: no-repeat;
+
+	p {
+		max-width: 450px;
+		margin: 0 auto;
+	}
 }
 
 .grid-three-quarters {
@@ -340,9 +349,12 @@ section.panel {
 .words {
 	display: flex;
 	align-items: center;
+	padding-right: 30px;
 }
 
 .section-Right {
+	background-color: #f2f2f2;
+
 	.words {
 		grid-column: 1;
 		grid-row: 1;
