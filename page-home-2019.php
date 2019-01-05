@@ -45,24 +45,20 @@ get_header(); ?>
 
 			<?php get_template_part( 'includes/partials/app-signup' ); ?>
 		</div><!-- end orange -->
-			
+	</div>	
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class( 'primary' ); ?> role="main">
 		
 		<div class="post-content margin-t">
 			
 			<!-- Panel 2 Video -->
-			<div style="text-align: center" class="margin-b">
-				<img class="icon pad" src="https://exodus90.com/wp-content/uploads/2018/12/mountain.png" alt="Mountain Icon">
-			</div>
+			<section style="text-align: center;" class="section-special-bg section-blank">
+				<div class="sectionizer-header pad margin-t">
+					<h2>Welcome to Exodus 90</h2>
+					<p>A 90-day spiritual exercise for Catholic men.</p>
+				</div>
 
-			<div class="sectionizer-header pad margin-t">
-				<h2>Welcome to Exodus 90</h2>
-				<p>A 90-day spiritual exercise for Catholic men.</p>
-			</div>
-
-			<section class="section-special-bg section-blank">
-				<video playsinline controls loop="" muted="false" autoplay="" title="Exodus90 Intro" poster="https://exodus90.com/wp-content/uploads/2018/08/exodus-90-bg.png" class="">
+				<video playsinline controls loop="" muted="false" autoplay="" title="Exodus90 Intro" poster="https://exodus90.com/wp-content/uploads/2018/08/exodus-90-bg.png">
 					<source src="https://exodus90.com/wp-content/uploads/2018/08/Exodus-90Draft4-2.mp4" type="video/mp4">
 				</video>
 
@@ -75,41 +71,39 @@ get_header(); ?>
 				
 			<!-- Panel 3 (Repeat Sections) -->
 			
-			<div class="sectionizer-header">
-				<h2><?php echo $section_title; ?></h2>
-				<p><?php echo $section_subtitle; ?></p>
-			</div>
+			
 			
 
 			<section class="section-special-bg">
 
-				<div class="accordion">
-					<ul>
-				<?php 
-				if( have_rows('section') ):
+				<div class="sectionizer-header">
+					<h2><?php echo $section_title; ?></h2>
+					<p><?php echo $section_subtitle; ?></p>
+				</div>
 
-			 	// loop through the rows of data
-			    while ( have_rows('section') ) : the_row();  ?>
-					<li>
-			            <input type="radio" name="select" class="accordion-select" checked />
-			            <div class="accordion-title">
-			                <span>
-			                	<h4><?php the_sub_field('subhead');?></h4>
-								<h5><?php the_sub_field('title');?></h5>
-			                </span>
-			            </div>
-			            <div class="accordion-content">
-			                <?php the_sub_field('text'); ?>
-			            </div>
-			            <div class="accordion-separator"></div>
-			        </li> 
-				<?php
-				    endwhile;
-					endif;
-				?>
-					</ul>
-				</div> 
-			 
+				<div class="dropdown-grid">
+					<?php 
+					if( have_rows('section') ):
+
+				 	// loop through the rows of data
+				    while ( have_rows('section') ) : the_row();  ?>
+					<a href="#" class="grid__item" tabindex="1">
+					  	<h4><?php the_sub_field('subhead');?></h4>
+						<h5><?php the_sub_field('title');?></h5>
+					</a>
+
+					<div class="grid__description">
+						<div>
+							<?php the_sub_field('text'); ?>
+						</div>
+					</div>
+					<?php
+					    endwhile;
+						endif;
+					?>
+	
+				</div>
+	
 			</section>
 
 			<!-- Panel 4 (Reviews) -->

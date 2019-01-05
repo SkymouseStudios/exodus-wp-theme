@@ -1,4 +1,4 @@
-;(function($) {
+(function($) {
 
 	"use strict";
 
@@ -203,3 +203,30 @@ var x = setInterval(function() {
   }
 }, 1000);
 
+
+(function($) {
+  function activateDesc($desc) {
+    $desc.addClass('active');
+  }
+
+  $('.grid__item').on('click', function(e) {
+    e.preventDefault();
+
+    var $link = $(this);
+    var $desc = $link.next('.desc');
+    var $activeDesc = $('.desc.active');
+    
+    if ($desc.hasClass('active')) {
+      return;
+    }
+    
+    if ($activeDesc.length < 1) {
+      activateDesc($desc);
+      return;
+    }
+    
+    $activeDesc.removeClass('active').one('transitionend', function() {
+      activateDesc($desc);
+    });
+  });
+})(jQuery);

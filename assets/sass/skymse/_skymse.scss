@@ -126,7 +126,7 @@
 	}
 
 	.sectionizer-header {
-		max-width: 500px;
+		max-width: 600px;
 		padding: 0px 20px;
 		padding-top: 40px;
 		text-align: center;
@@ -323,8 +323,8 @@ section {
 		width: 100%;
 		position: absolute;
 		z-index: -1;
-		top: 13%;
-		bottom: 13%;
+		top: 0;
+		bottom: 0;
 		left: 0px;
 		display: block;
 	}
@@ -332,6 +332,13 @@ section {
 
 .section-callout {
 	background-color: #2C3842;
+	background:
+	radial-gradient(circle, transparent 20%, #2C3842 20%, #2C3842 80%, transparent 80%, transparent),
+	radial-gradient(circle, transparent 20%, #2C3842 20%, #2C3842 80%, transparent 80%, transparent) 50px 50px,
+	linear-gradient(#2F3E4B 8px, transparent 8px) 0 -4px,
+	linear-gradient(90deg, #2F3E4B 8px, transparent 8px) -4px 0;
+	background-color: #2C3842;
+	background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
 
 	h2 {
 		color: #d2d2d2;
@@ -561,127 +568,6 @@ footer {
 	}
 }
 
-// Accordian Block
-
-.accordion {
-	position: relative;
-    border-radius: 3px;
-    height: 484px;
-}
-
-.accordion > ul > li {
-	position: relative;
-    background-color: #ababab;
-    margin-right: -0px;
-    margin-bottom: -100px;
-}
-
-.accordion-select:checked ~ .accordion-separator {
-    margin-right: 0px;
-    margin-bottom: 100px;
-} 
-
-.accordion-title,
-.accordion-select  {
-    background-color: #e3e3e3;
-    height: 95px;
-    font-size: 15px;
-}
-
-.accordion-title::before {
-	content: url("../img/arrow.svg");
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 50px;
-	background-color: #d8d8d8;
-	z-index: 1;
-	height: 100%;
-	padding-top: 30px;
-}
-
-.accordion-title span {
-    margin-bottom: 20px; 
-    margin-left: 28px;
-} 
-
-.accordion-select:hover ~ .accordion-title,
-.accordion-select:checked ~ .accordion-title {
-    background-color: #cecece;
-} 
-
- .accordion-title span  {	
-    transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -ms-writing-mode: lr-tb;
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
-    margin-bottom: 0px;
-    line-height: 55px;
-} 
-
-.accordion-content {
-    background-color: #eaeaea;
-    color: $black;
-    height: 100px;
-    padding: 20px;
-}
-
-.accordion-title,
-.accordion-select:checked ~ .accordion-content {
-    margin-right: 1px;
-    margin-bottom: 1px;
-} 
-
-/* Do not change following properties, they aren't 
-generated automatically and are common for each slider. */
-.accordion {
-    overflow: hidden;
-}
-
-.accordion > ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 101%;
-}
-
-.accordion > ul > li,
-.accordion-title {
-    position: relative;
-}
-
-.accordion-select {
-    cursor: pointer;
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: 0;
-    margin: 0;
-    width: 50px;
-	z-index: 10;
-}
-
-.accordion-title span {
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    white-space: nowrap;
-}
-
-.accordion-content {
-    position: relative;
-    overflow: auto;
-}
-
-.accordion-separator {
-    transition: margin 0.3s ease 0.1s;
-    -o-transition: margin 0.3s ease 0.1s;
-    -moz-transition: margin 0.3s ease 0.1s;
-    -webkit-transition: margin 0.3s ease 0.1s;
-}
-// --- End accordian styles
 
 //====================================
 // Tablet Styles
@@ -720,9 +606,71 @@ generated automatically and are common for each slider. */
 	}
 }
 
+// New Accordian Styles
+
+.grid__item {
+	display: block;
+	border: 1px solid #aaa;
+	min-height: 150px;
+	padding: 2em;
+
+	h5 {
+		color: $black;
+	}
+
+	&:focus {
+  		background-color: orange;
+	}
+
+	&:focus + .grid__description {
+		
+		max-height: 150px;
+		transition: max-height 0.4s ease-in;
+	}
+}
+
+.grid__description {
+	max-height: 0;
+	overflow: hidden;
+	background: #aaa;
+	transition: max-height 0.15s ease-in;
+
+	div {
+		padding: 2em;
+	}
+}
+
+
 //====================================
 // Desktop Styles
 //====================================
+@media only screen and (min-width: 768px) {
+	#Home video {
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	.grid__item {
+		border: none;
+		padding-bottom: 0px;
+	}
+
+	.dropdown-grid {
+    	display: grid;
+    	grid-template-columns: 1fr 1fr 1fr 1fr;
+  	}
+
+  	.grid__description {
+  		padding-top: 0px;
+  		background-color: transparent;
+  		max-height: 170px;
+    	grid-row: 2;
+
+    	div {
+    		padding-top: 0;
+    	}
+  	}
+}
 
 @media only screen and (min-width: 1030px) {
 	section.panel, section#quoteCallout {
