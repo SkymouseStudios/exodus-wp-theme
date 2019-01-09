@@ -24,7 +24,7 @@ get_header(); ?>
 
             <div class="row">
                 <div class="small-12 medium-4 columns">
-                    <a href="/support">Support Articles</a>
+                    <p>Please check out the <a href="/support">Frequently Asked Questions</a> before sending us a message!</p>
                     <hr>
                     <h4>Email</h4>
                     <a href="mailto:support@exodus90.com">support@exodus90.com</a><br>

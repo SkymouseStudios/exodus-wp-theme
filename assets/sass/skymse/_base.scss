@@ -1,12 +1,8 @@
 //====================================
-// Styles from the team at Skymouse
-// GOES IN CUSTOM.SCSS
+// MOBILE STYLES
 //====================================
 
-// New Media Page Styles
-.orange-line {
-	height: 15px; background-color: #EF643A;
-}
+// ----- Helper Styles
 
 .margin-b {
 	margin-bottom: 15px;
@@ -21,12 +17,27 @@
 	padding-bottom: 5%;
 }
 
+.tiny-text {
+	font-size: .7em;
+	margin: 0;
+}
+
+.kill-margin {
+	margin: 0;
+}
+
 .icon {
 	width: 80px;
 }
 
 hr {
 	border: solid 3px #eaeaea;
+}
+
+hr.orange-line {
+	border: none;
+	height: 15px; 
+	background-color: #EF643A;
 }
 
 .guest-logos {
@@ -40,25 +51,7 @@ hr {
 	}
 }
 
-.tiny-text {
-	font-size: .7em;
-	margin: 0;
-}
-
-.kill-margin {
-	margin: 0;
-}
-
-#countdown {
-	text-align: center;
-	color: $orange;
-
-	span {
-		color: gray;
-	}
-}
-
-// Hacks
+// HOME
 #HomeHero {
 	.orange-top {
 		padding: 0px 0 20px 0;
@@ -96,38 +89,6 @@ hr {
 }
 
 // -------- the 2019 homepage
-
-.the-world {
-	background-image: url('../img/earth-01.svg');
-	background-size: 80%;
-	background-position: top;
-	padding: 100px 0;
-	text-align: center;
-	background-repeat: no-repeat;
-
-	p {
-		max-width: 450px;
-		margin: 0 auto;
-	}
-}
-
-.grid-three-quarters {
-	display: grid;
-	z-index: 1;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 50px;
-	grid-auto-rows: minmax(50px, auto);
-
-	.ab {
-		grid-column: 1;
-	}
-
-	.c {
-		grid-column: 1;
-		padding: 40px;
-		text-align: center;
-	}
-}
 	
 #Home {
 	h4 {
@@ -137,26 +98,6 @@ hr {
 	video {
 		width: 100%;
 		margin: 0 auto;
-	}
-
-	.sectionizer-header {
-		text-align: center;
-		position: relative;
-
-		h2 {
-			position: absolute;
-			z-index: 2;
-			left: 0px;
-			right: 0px;
-			font-size: 4em;
-		}
-
-		.title-background {
-			opacity: .5;
-			z-index: 0;
-			width: 300px;
-			margin: 0 auto;
-		}
 	}
 
 	#quoteBlock {
@@ -169,6 +110,40 @@ hr {
 
 	.section-Left img {
 		transform: none;
+	}
+}
+
+.sectionizer-header {
+	text-align: center;
+	position: relative;
+
+	h2 {
+		position: absolute;
+		z-index: 2;
+		left: 0px;
+		right: 0px;
+		font-size: 4em;
+	}
+
+	.title-background {
+		opacity: .5;
+		z-index: 0;
+		width: 300px;
+		margin: 0 auto;
+	}
+}
+
+.the-world {
+	background-image: url('../img/earth-01.svg');
+	background-size: 80%;
+	background-position: top;
+	padding: 100px 0;
+	text-align: center;
+	background-repeat: no-repeat;
+
+	p {
+		max-width: 450px;
+		margin: 0 auto;
 	}
 }
 
@@ -231,7 +206,13 @@ hr {
     padding-bottom: 310px;
 }
 
-p.subheading {
+.heading {
+	margin: 0 auto;
+	max-width: 450px;
+	text-align: center;
+}
+
+.subheading {
 	color: $gray;
 	font-size: 1.2em;
 	line-height: 1.4em;
@@ -276,15 +257,7 @@ p.subheading {
 .page-template-page-parishes article {
 	background: url(../img/exoconcept_bg.jpg) no-repeat center top;
 
-	h2 {
-		text-align: center;
-		color: $orange;
-		font-size: 1.8em;
-		padding-top: 50px;
-	}
-
 	.post-content {
-		
 		margin: 0 auto;
 	}
 }
@@ -294,12 +267,11 @@ video.small {
 }
 
 // Default Section Panel
-section.panel {
-	display: grid;
+.section-panel {
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
 	z-index: 1;
-	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	grid-gap: 50px;
-	grid-auto-rows: minmax(50px, auto);
 	margin-top: 0px;
 	margin-bottom: 0px;
 
@@ -350,17 +322,16 @@ section.panel {
 	display: flex;
 	align-items: center;
 	padding-right: 30px;
+	background-color: #f2f2f2;
+	padding-left: 20px;
 }
 
-.section-Right {
-	background-color: #f2f2f2;
-
-	.words {
-		grid-column: 1;
-		grid-row: 1;
-	}	
+.section-Right {	
 
 	.image {
+		grid-column: 1;
+		grid-row: 1;
+		border: 2px dotted $orange;
 		perspective: 250px;
 	    perspective-origin: right;
 	}
@@ -374,6 +345,9 @@ section.panel {
 
 .section-Left {
 	.image {
+		grid-column: 1;
+		grid-row: 1;
+		border: 2px dotted $orange;
 		perspective: 250px;
     	perspective-origin: left;
 	}
@@ -385,8 +359,7 @@ section.panel {
     }
 }
 
-// Section with Single Call out quote
-section#quoteCallout {
+.section-single-quote {
 	color: $gray;
 	text-align: center;
 	padding: 0px 20px;
@@ -419,8 +392,7 @@ section#quoteCallout {
 	padding-right: 20px;
 }
 
-// Section with Block Quotes
-section#quoteBlock {
+.section-three-quotes {
 	width: 100%;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -428,10 +400,6 @@ section#quoteBlock {
 	margin-top: 200px;
 	display: grid;
 	text-align: center;
-
-	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	grid-gap: 30px;
-	grid-auto-rows: minmax(50px, auto);
 	-ms-flex-line-pack: justify;
 	align-content: space-between;
 	-ms-flex-pack: distribute;
@@ -471,86 +439,6 @@ section#quoteBlock {
 	}
 }
 
-section.grid {
-	background-color: #f8f6f3;
-}
-
-// Accordian Shows
-.accordion-title {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-  margin-bottom: 5px;
-}
-
-.accordion-title:after {
-  content: '+'; /* Unicode character for "plus" sign (+) */
-  font-size: 16px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-.active, .accordion:hover {
-  background-color: #ccc; 
-}
-
-.accordian-panel {
-	padding: 0 18px;
-	background-color: white;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
-	margin-bottom: 5px;
-} 
-
-// end accordian
-
-
-#featureGrid {
-	padding-top: 100px;
-	padding-bottom: 150px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: 80px;
-	grid-auto-rows: minmax(100px, auto);
-	-ms-flex-line-pack: justify;
-	align-content: space-between;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
-	max-width: 1200px;
-	margin: 0 auto;
-
-	.feature {
-		text-align: center;
-	}
-
-	.feature img {
-		width: 150px;
-	}
-}
-
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
-    grid-gap: 40px;
-    grid-auto-rows: repeat(4, 1fr);
-
-	img {
-		width: 80%;
-	}
-}
 
 // Contact Form
 #Contact {
@@ -578,8 +466,6 @@ section.grid {
 		}
 	}
 }
-
-
 
 .get-started img {
 	max-width: 100%;
@@ -647,76 +533,3 @@ footer {
 		}
 	}
 }
-
-// mobile settings
-@media only screen and (min-width: 600px) {
-
-	#secondPanel {
-		grid-column: 1;
-	}
-
-	.title-logo img {
-		width: 50%;
-
-	}
-
-	#landing .align {
-		height: 100vh;
-
-		.header {
-			padding: 0;
-		}
-
-		article {
-			padding-top: 0;
-		}
-	}
-
-	.footer-logo {
-		text-align: left;
-		float: left;
-	}
-
-	footer {
-		padding: 0px;
-	}
-}
-
-// Desktop Styles
-@media only screen and (min-width: 1030px) {
-	#HomeHero #Smartphone {
-		display: block;
-	}
-
-	section.section-normal, section.panel, section#quoteCallout {
-		width: 1000px;
-	}
-
-	.grid-three-quarters {
-		.ab {
-			grid-column: span 2;
-		}
-
-		.c {
-			grid-column: span 1;
-			padding: 40px;
-			align-self: center;
-		}
-	}
-
-	.section-Right {
-		.words {
-			grid-column: 2;
-			grid-row: 1;
-		}	
-	}
-
-	section {
-		margin: 40px auto 100px auto; 
-	}
-
-	.menu-footer-navigation-container > ul {
-		display: flex;
-		float: right;
-	}
-} // end Desktop files

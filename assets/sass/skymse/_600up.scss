@@ -1,0 +1,49 @@
+// mobile settings
+
+.grid-half {
+	grid-gap: 50px;
+}
+
+.section-Right {
+	.words {
+		grid-column: 1;
+		grid-row: 1;
+	}
+}
+
+.section-Left {
+	.image {
+		grid-column: auto;
+		grid-row: auto;
+	}
+}
+
+#secondPanel {
+	grid-column: 1;
+}
+
+.title-logo img {
+	width: 50%;
+
+}
+
+#landing .align {
+	height: 100vh;
+
+	.header {
+		padding: 0;
+	}
+
+	article {
+		padding-top: 0;
+	}
+}
+
+.footer-logo {
+	text-align: left;
+	float: left;
+}
+
+footer {
+	padding: 0px;
+}

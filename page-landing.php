@@ -10,7 +10,7 @@ get_header(); ?>
 <div class="page">
 <?php while ( have_posts() ) : the_post(); ?>
 
-	<section id="landing" class="panel">
+	<section id="landing" class="section-panel grid-half">
 	
 		<div class="align">
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'primary' ); ?> role="main">

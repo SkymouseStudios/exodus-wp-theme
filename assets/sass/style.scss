@@ -23,4 +23,26 @@
 @import "brock/_product.scss";
 @import "brock/_tiers.scss";
 
-@import "skymse/_skymse.scss";
+@import "skymse/_base.scss";
+@import "skymse/_grid.scss";
+@import "skymse/_modules.scss";
+
+/*********************
+TABLET & SMALLER LAPTOPS
+*********************/
+@media only screen and (min-width: 600px) {
+
+	// styles in 768up.scss
+	@import "skymse/600up";
+
+} // end of media query
+
+/*********************
+DESKTOP
+*********************/
+@media only screen and (min-width: 1030px) {
+
+	// styles in 1030up.scss
+	@import "skymse/1030up";
+
+} // end of media query

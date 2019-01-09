@@ -111,7 +111,6 @@ get_header(); ?>
 				endif;
 			
 			?>
-		</div>
 		<hr class="orange-line">
 	<!-- END Block 1 -->
 
@@ -155,7 +154,6 @@ get_header(); ?>
 				endif;
 			
 			?>
-		</div>
 		<hr class="orange-line">
 	<!-- END Block 2 -->
 
@@ -199,7 +197,6 @@ get_header(); ?>
 				endif;
 			
 			?>
-		</div>
 		<hr class="orange-line">
 	<!-- END Block 3 -->
 
@@ -243,7 +240,6 @@ get_header(); ?>
 				endif;
 			
 			?>
-		</div>
 		<hr class="orange-line">
 	<!-- END Block 4 -->
 
@@ -287,7 +283,6 @@ get_header(); ?>
 				endif;
 			
 			?>
-		</div>
 		<hr class="orange-line">
 	<!-- END Block 5 -->
 
@@ -331,7 +326,6 @@ get_header(); ?>
 				endif;
 			
 			?>
-		</div>
 		<hr class="orange-line">
 	<!-- END Block 6 -->
 
@@ -375,7 +369,6 @@ get_header(); ?>
 				endif;
 			
 			?>
-		</div>
 		<hr class="orange-line">
 	<!-- END Block 7 -->
 
@@ -419,12 +412,13 @@ get_header(); ?>
 				endif;
 			
 			?>
-		</div>
+		
 		<hr class="orange-line">
 	<!-- END Block 8 -->
 
 	</article>
 <?php endwhile; ?>
 </div>
+
 <?php get_footer(); ?>
 

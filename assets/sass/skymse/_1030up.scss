@@ -1,0 +1,33 @@
+// Desktop Styles
+#HomeHero #Smartphone {
+	display: block;
+}
+
+section {
+	width: 1000px;
+	margin: 40px auto 100px auto; 
+}
+
+.grid-three-quarters {
+	.ab {
+		grid-column: span 2;
+	}
+
+	.c {
+		grid-column: span 1;
+		padding: 40px;
+		align-self: center;
+	}
+}
+
+.section-Right {
+	.words {
+		grid-column: 2;
+		grid-row: 1;
+	}	
+}
+
+.menu-footer-navigation-container > ul {
+	display: flex;
+	float: right;
+}
