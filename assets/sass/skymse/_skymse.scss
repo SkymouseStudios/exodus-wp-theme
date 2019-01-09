@@ -413,6 +413,12 @@ section#quoteCallout {
 	}
 }
 
+.section-normal {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 // Section with Block Quotes
 section#quoteBlock {
 	width: 100%;
@@ -468,6 +474,49 @@ section#quoteBlock {
 section.grid {
 	background-color: #f8f6f3;
 }
+
+// Accordian Shows
+.accordion-title {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-bottom: 5px;
+}
+
+.accordion-title:after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  font-size: 16px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.accordian-panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	margin-bottom: 5px;
+} 
+
+// end accordian
+
 
 #featureGrid {
 	padding-top: 100px;
@@ -639,7 +688,7 @@ footer {
 		display: block;
 	}
 
-	section.panel, section#quoteCallout {
+	section.section-normal, section.panel, section#quoteCallout {
 		width: 1000px;
 	}
 

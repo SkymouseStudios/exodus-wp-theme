@@ -31,23 +31,45 @@ get_header(); ?>
 				<img class="make-bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand-mark-circle.png" alt="" />
 				<div class="small-10 small-offset-1 medium-6 medium-offset-3 columns">
 					<div id="ask-a-question" class="pad-top pad-bottom">
-						<h3>5 Steps to Get Started</h3>
+						<h3 style="color: white">5 Steps to Get Started</h3>
 						<p>1. Invite 5-7 other men to join you for Exodus 90. Each man is to register individually at Exodus90.com/get-started.</p>
-<p>2. Adapt your daily schedule to the Exodus 90 regimen. Read and reflect upon the daily scriptures and meditations. Act upon the action items provided each week.</p>
-<p>3. Plan and prioritize your weekly meetings. Consider setting aside social time for the fraternity each week as well.</p>
-<p>4. Assign accountability partners within your Exodus 90 fraternity.</p>
-<p>5. Pursue a priest, wise mentor, or a former Exodus 90 man to act as a spiritual director for your Exodus 90 fraternity.
-</p>
+						<p>2. Adapt your daily schedule to the Exodus 90 regimen. Read and reflect upon the daily scriptures and meditations. Act upon the action items provided each week.</p>
+						<p>3. Plan and prioritize your weekly meetings. Consider setting aside social time for the fraternity each week as well.</p>
+						<p>4. Assign accountability partners within your Exodus 90 fraternity.</p>
+						<p>5. Pursue a priest, wise mentor, or a former Exodus 90 man to act as a spiritual director for your Exodus 90 fraternity.
+						</p>
                         <button id="btn-ask-question" class="button"><a href="/what-does-day-91-look-like">What's Day 91 Look Like?</a></button>
-
-						<?php echo do_shortcode('[contact-form-7 id="27" title="Contact form 1"]'); ?>
 					</div>
 				</div>
 			</div>
+
+			<section class="section-normal">
+				<h2>Frequently Asked Questions</h2>
+				<?php 
+					
+					if( have_rows('faqs') ): 
+					
+					while( have_rows('faqs') ): the_row(); 
+						$question = get_sub_field('question');
+						$answer = get_sub_field('answer');
+					?>
+
+				 	<button class="accordion-title"><?php echo $question; ?></button>
+					<div class="accordian-panel">
+					  <p><?php echo $answer; ?></p>
+					</div>
+
+				<?php 
+					
+					endwhile;
+					endif; 
+				?>
+
+			</section>
+
 			<?php exodus_support_articles(); ?>
 		</div>
 	</article><!-- #post-<?php the_ID(); ?> -->
-    <?php require('partial-preview-email-signup.php'); ?>
 	<?php exodus_home_promotion_tier('home_tier_three'); ?>
 <?php endwhile; ?>
 </div>

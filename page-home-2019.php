@@ -16,6 +16,9 @@ get_header(); ?>
 		$quote_callout_person = get_field('quote_callout_person');
 
 		$guest_logo = get_field('guest_logo');
+
+		$nonprofit_headline = get_field('nonprofit_headline');
+		$nonprofit_subhead = get_field('nonprofit_subhead');
 	?>
 	
 	<!-- Panel 1 Header -->
@@ -112,12 +115,12 @@ get_header(); ?>
 			</div>
 		</section>
 		
-		
-		<!-- Panel 4 (Reviews) -->
-		<div class="the-world">
-			<h2>Exodus 90 changes the world.</h2>
-			<p>Exodus is a non-profit working to change the world, one free man at a time. All proceeds goes towards reaching more men, keeping our systems running and furthering the Exodus Mission.</p>
-		</div>
+		<?php if ( $nonprofit_headline ): ?>
+			<div class="the-world">
+				<h2><?php echo $nonprofit_headline; ?></h2>
+				<p><?php echo $nonprofit_subhead; ?></p>
+			</div>
+		<?php endif ?>
 		
 	</div><!-- end post-content -->
 	</article>

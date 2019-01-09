@@ -172,8 +172,21 @@ jQuery('a[href*="#"]')
     }
   }); 
 
+// Accordian Effects
+var acc = document.getElementsByClassName("accordion-title");
+var i;
 
-  
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
 
 // Countdown Timer: Set the date we're counting down to
 var countDownDate = new Date("Jan 20, 2019 23:59:59").getTime();
