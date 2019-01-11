@@ -1,5 +1,6 @@
 <?php 
 	$section_title = get_field('section_title');
+	$section_subtitle = get_field('section_subtitle');
 ?>
 <!-- Panel 3 (Repeat Sections) -->
 	
@@ -7,6 +8,10 @@
 		<h2><?php echo $section_title; ?></h2>
 		<img class="title-background" src="https://exodus90.com/wp-content/uploads/2018/12/e90-orange.png" alt="Orange Exodus 90 Badge">
 	</div>
+
+	<?php if ( $section_subtitle ) { ?>
+		<p class="subheading"><?php echo $section_subtitle; ?></p>
+	<?php } ?>
 	
 	<?php 
 	if( have_rows('section') ):

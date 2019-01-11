@@ -12,4 +12,7 @@
 			<img style="max-width: 200px" src="https://exodus90.com/wp-content/uploads/2018/12/app-download-1-e1545415700558.jpg" alt="Google App Download Icons">
 		</div>
 	</div>
+
+	<p class="subheading">Have questions about the program? Check out our <a href="/faq">Frequently Asked Questions!</a></p>
+	
 </section>

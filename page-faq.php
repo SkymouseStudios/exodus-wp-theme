@@ -43,7 +43,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<section class="section-normal">
+			<section>
 				<h2>Frequently Asked Questions</h2>
 				<?php 
 					
@@ -52,8 +52,11 @@ get_header(); ?>
 					while( have_rows('faqs') ): the_row(); 
 						$question = get_sub_field('question');
 						$answer = get_sub_field('answer');
-					?>
-
+						$faq_subhead = get_sub_field('faq_subhead');
+					
+						if ( $faq_subhead ) { ?>
+							<h4><?php echo $faq_subhead; ?></h4>
+						<?php } ?>
 				 	<button class="accordion-title"><?php echo $question; ?></button>
 					<div class="accordian-panel">
 					  <p><?php echo $answer; ?></p>
