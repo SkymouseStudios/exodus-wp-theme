@@ -5,7 +5,7 @@
 ?>
 <!-- Contact Form -->
 <section id="Contact">
-	<h1><?php echo $contact_title; ?></h1>
+	<h2><?php echo $contact_title; ?></h2>
 	<p class="subheading"><?php echo $contact_text; ?></p>
 	<?php echo do_shortcode( get_field('contact_form', false, false) ); ?>
 </section>

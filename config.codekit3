@@ -858,13 +858,6 @@
 		"oAP": "/exodus-wp-theme/footer.php",
 		"oF": 0
 		},
-	"/front-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/exodus-wp-theme/front-page.php",
-		"oF": 0
-		},
 	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -982,6 +975,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/index.php",
+		"oF": 0
+		},
+	"/old-front-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/exodus-wp-theme/old-front-page.php",
 		"oF": 0
 		},
 	"/page-contact.php": {
@@ -1125,7 +1125,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/screenshot.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 568916408.83311701
+	"lastBuiltDate": 568941885.41492498
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

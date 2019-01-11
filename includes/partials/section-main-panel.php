@@ -9,11 +9,11 @@
 	$video_link = get_field('video_link');
 ?>
 
-<div class="sectionizer-header pad">
-	<h2><?php echo $main_panel_title; ?></h2>
+<div class="pad">
+	<h2 class="heading"><?php echo $main_panel_title; ?></h2>
 </div>
 
-<section class="section-panel pad grid-half">
+<section class="section-panel grid-half">
 
 	<?php 
 		// If there is a video link, show the video

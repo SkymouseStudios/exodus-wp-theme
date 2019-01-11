@@ -36,7 +36,7 @@ get_header(); ?>
 				
 			<?php } ?>
 			
-			<section class="section-panel pad title-logo">
+			<section class="section-panel title-logo">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/are-you-ready-for-more.svg" alt="Are You Ready For More">
 			</section>
 		</div>

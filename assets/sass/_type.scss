@@ -96,7 +96,7 @@ h1, h2, h3 {
 }
 
 h1, .h1 {
-    font-size: 5em;
+    font-size: 4em;
     @include break($medium) {
         font-size: 4em;
     }

@@ -9,5 +9,5 @@
 	 }
 
 	if ( $header_button_text ) { ?>
-		<a style="text-align: center;" class="button button-orange" href="<?php echo $header_button_url; ?>"><?php echo $header_button_text; ?></a>
+		<a class="button button-orange button-full-width" href="<?php echo $header_button_url; ?>"><?php echo $header_button_text; ?></a>
 	<?php } ?>

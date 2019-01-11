@@ -1,4 +1,11 @@
 // mobile settings
+.header {
+	padding: 200px 20px;
+}
+
+.button-full-width {
+	width: auto;
+}
 
 .grid-half {
 	grid-gap: 50px;
@@ -6,8 +13,8 @@
 
 .section-Right {
 	.words {
-		grid-column: 1;
-		grid-row: 1;
+		// grid-column: 1;
+		// grid-row: 1;
 	}
 }
 

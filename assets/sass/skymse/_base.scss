@@ -30,6 +30,21 @@
 	width: 80px;
 }
 
+.button-full-width {
+	width: 100%;
+	text-align: center;
+}
+
+.grow { 
+	transition: all .3s ease-in-out; 
+
+	&:hover { 
+		transform: scale(1.05); 
+		box-shadow: 1px 1px 20px #6f6f6f33;
+	}
+}
+
+
 hr {
 	border: solid 3px #eaeaea;
 }
@@ -58,7 +73,6 @@ hr.orange-line {
 		background-color: $orange;
 
 		h1 {
-			font-size: 5em;
 			color: white;
 		}
 	}
@@ -67,7 +81,7 @@ hr.orange-line {
 		display: none;
 		position: absolute;
 		bottom: 0px;
-		width: 350px;
+		width: 250px;
 		right: 50px;
 		transform: rotatez(15deg);
 	}
@@ -104,15 +118,27 @@ hr.orange-line {
 		margin-top: 0px;
 	}
 
-	.section-Right img {
-		transform: none;
-		max-width: 100%;
+	.section-Right {
+		.image {
+			border: 4px solid $orange;
+		}
+
+		img {
+			transform: none;
+			max-width: 100%;
+		}
 	}
 
-	.section-Left img {
-		transform: none;
-		max-width: 100%;
-	}
+	.section-Left {
+		.image {
+			border: 4px solid $orange;
+		}
+
+		img {
+			transform: none;
+			max-width: 100%;
+		}
+	}	
 }
 
 .sectionizer-header {
@@ -142,11 +168,6 @@ hr.orange-line {
 	padding: 100px 0;
 	text-align: center;
 	background-repeat: no-repeat;
-
-	p {
-		max-width: 450px;
-		margin: 0 auto;
-	}
 }
 
 // ------ Landing Page for Viral Loops
@@ -212,6 +233,7 @@ hr.orange-line {
 	margin: 0 auto;
 	max-width: 450px;
 	text-align: center;
+	padding: 20px;
 }
 
 .subheading {
@@ -222,13 +244,14 @@ hr.orange-line {
 	margin-top: 15px;
 	max-width: 450px;
 	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 // New Homepage Video Header Styles
 
 .header {
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding: 100px 20px 200px 20px;
 	color: white;
 	text-align: center;
 	position: relative;
@@ -316,6 +339,7 @@ video.small {
 	}
 
 	.main-text {
+		top-padding: 25px;
 		color: $gray;
 	}
 }
@@ -323,9 +347,8 @@ video.small {
 .words {
 	display: flex;
 	align-items: center;
-	padding-right: 30px;
 	background-color: #f2f2f2;
-	padding-left: 20px;
+	padding: 20px;
 }
 
 .section-Right {	
@@ -333,7 +356,6 @@ video.small {
 	.image {
 		grid-column: 1;
 		grid-row: 1;
-		border: 4px solid $orange;
 		perspective: 250px;
 	    perspective-origin: right;
 	}
@@ -349,7 +371,6 @@ video.small {
 	.image {
 		grid-column: 1;
 		grid-row: 1;
-		border: 4px solid $orange;
 		perspective: 250px;
     	perspective-origin: left;
 	}
@@ -410,7 +431,7 @@ video.small {
 	img {
 		width: 150px;
 		margin-top: -100px;
-		border-radius: 80px;
+		border-radius: 180px;
 	}
 
 	.quote {
@@ -444,13 +465,13 @@ video.small {
 
 // Contact Form
 #Contact {
-	padding-top: 50px;
+	width: 100%;
 	margin-bottom: 0px;
-	padding-bottom: 20px;
 	text-align: center;
 	background-color: #f8f6f3;
+	padding: 50px 20px 20px 20px;
 
-	h1 {
+	h2 {
 		color: $orange;
 		max-width: 750px;
 		margin: 0 auto;

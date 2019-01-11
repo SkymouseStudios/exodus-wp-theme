@@ -5,7 +5,7 @@
 	if ( $nonprofit_headline ): ?>
 		<div class="the-world">
 			<h2><?php echo $nonprofit_headline; ?></h2>
-			<p><?php echo $nonprofit_subhead; ?></p>
+			<p class="subheading"><?php echo $nonprofit_subhead; ?></p>
 		</div>
 		
 <?php 

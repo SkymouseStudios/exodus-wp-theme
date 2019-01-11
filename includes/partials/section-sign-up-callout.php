@@ -8,8 +8,11 @@
 		</div>
 
 		<div class="c">
-			<img style="max-width: 200px" src="https://exodus90.com/wp-content/uploads/2018/12/app-download-e1545415665443.jpg" alt="Apple App Download Icons">
-			<img style="max-width: 200px" src="https://exodus90.com/wp-content/uploads/2018/12/app-download-1-e1545415700558.jpg" alt="Google App Download Icons">
+			<a title="Apple Download Button" href="https://itunes.apple.com/us/app/exodus-90/id1448034275#?platform=iphone"><img style="max-width: 200px" class="grow" src="https://exodus90.com/wp-content/uploads/2018/12/app-download-e1545415665443.jpg" alt="Apple App Download Icons">
+			</a>
+			<a title="Google Apps Download Button" href="https://play.google.com/store/apps/details?id=com.exodus90.app&hl=en">
+				<img style="max-width: 200px" class="grow" src="https://exodus90.com/wp-content/uploads/2018/12/app-download-1-e1545415700558.jpg" alt="Google App Download Icons">
+			</a>
 		</div>
 	</div>
 
