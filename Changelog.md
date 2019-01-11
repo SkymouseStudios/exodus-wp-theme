@@ -1,5 +1,18 @@
 # Exodus 90 Theme - Changelog
 
+*Version 2.3.0 - Jan 10, 2019*
+
+- Created a new page template for the homepage
+- Change max-width for Home Page Images
+- Fixed the non-profit section
+- added a conditional clause on the countdown timer.
+- separated scss styles into different partials
+- separated reusable php sections into partials
+- disabled old front-page
+- added a FAQ section
+- added new accordion JS and styles
+- reformatted page templates using the new php partials
+
 *Version 2.2.0 - Dec 17, 2018*
 
 - added copyright symbol to logo

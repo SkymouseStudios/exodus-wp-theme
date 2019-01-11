@@ -189,7 +189,7 @@ for (i = 0; i < acc.length; i++) {
 }
 
 // Countdown Timer
-if ($('#countdown').length > 0) {
+if (jQuery('#countdown').length > 0) {
   
 	// Countdown Timer: Set the date we're counting down to
 	var countDownDate = new Date("Jan 20, 2019 23:59:59").getTime();

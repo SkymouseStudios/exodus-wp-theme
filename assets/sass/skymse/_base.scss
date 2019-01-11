@@ -128,7 +128,7 @@ hr.orange-line {
 	}
 
 	.title-background {
-		opacity: .5;
+		opacity: 1;
 		z-index: 0;
 		width: 300px;
 		margin: 0 auto;
@@ -333,7 +333,7 @@ video.small {
 	.image {
 		grid-column: 1;
 		grid-row: 1;
-		border: 2px dotted $orange;
+		border: 4px solid $orange;
 		perspective: 250px;
 	    perspective-origin: right;
 	}
@@ -349,7 +349,7 @@ video.small {
 	.image {
 		grid-column: 1;
 		grid-row: 1;
-		border: 2px dotted $orange;
+		border: 4px solid $orange;
 		perspective: 250px;
     	perspective-origin: left;
 	}

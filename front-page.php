@@ -71,7 +71,6 @@ get_header(); ?>
 	<?php } ?>
 	<?php exodus_home_promotion_tier('home_tier_two'); ?>
     <?php exodus_home_promotion_tier('home_tier_three'); ?>
-    <?php require('partial-preview-email-signup.php'); ?>
 <?php endwhile; ?>
 
 </div>

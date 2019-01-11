@@ -3634,7 +3634,7 @@ hr.orange-line {
     right: 0px;
     font-size: 4em; }
   .sectionizer-header .title-background {
-    opacity: .5;
+    opacity: 1;
     z-index: 0;
     width: 300px;
     margin: 0 auto; }
@@ -3779,7 +3779,7 @@ video.small {
 .section-Right .image {
   grid-column: 1;
   grid-row: 1;
-  border: 2px dotted #EF643A;
+  border: 4px solid #EF643A;
   perspective: 250px;
   perspective-origin: right; }
 
@@ -3791,7 +3791,7 @@ video.small {
 .section-Left .image {
   grid-column: 1;
   grid-row: 1;
-  border: 2px dotted #EF643A;
+  border: 4px solid #EF643A;
   perspective: 250px;
   perspective-origin: left; }
 
