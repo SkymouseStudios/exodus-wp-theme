@@ -1,5 +1,28 @@
 # Exodus 90 Theme - Changelog
 
+*Version 2.3.4 - Jan 12, 2019*
+
+- added a class for lighter gray nav elements
+
+*Version 2.3.3 - Jan 10, 2019*
+
+- adjusted font sized for mobile
+- fixed the header on Parish pages
+- made the button full-width for mobile
+- added a scaling effect to app store buttons
+- fixed a grid layout issue
+- added padding to some elements for mobile
+- removed the how to get started section from the FAQ
+x Make mobile version countdown timer fit in one line
+x make the get started button full screen on mobile.
+x add mobile padding for sectionizer subtitle
+x add mobile padding to the non-profit subtitle
+x padding seems wonky on each of the sections.
+x add mobile padding to FAQ
+x parish page form header is too big, creates overflow
+x add the $9.99/month at the top CTA
+x Add links to the apple store / google play
+
 *Version 2.3.0 - Jan 10, 2019*
 
 - Created a new page template for the homepage
