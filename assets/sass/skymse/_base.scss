@@ -35,9 +35,19 @@
 	text-align: center;
 }
 
+.text-center {
+	text-align: center;
+}
+
+.img-float-left {
+	float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
 // used in buttons
 .gray-bg {
-	background-color: #4c4c4c;
+	background-color: #6f6f6f;
 }
 
 .grow { 
@@ -167,12 +177,105 @@ hr.orange-line {
 }
 
 .the-world {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 	background-image: url('../img/earth-01.svg');
 	background-size: 80%;
 	background-position: top;
 	padding: 100px 0;
 	text-align: center;
 	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+@keyframes hover {
+  0% {
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+%animate-hover {
+  -moz-animation: hover 4s infinite linear;
+  -o-animation: hover 4s infinite linear;
+  -webkit-animation: hover 4s infinite linear;
+  animation: hover 4s infinite linear;
+  animation-fill-mode: both;
+}
+
+
+.photo-wall {
+	width: 100%;
+	text-align: center;
+	height: 100px;
+	margin-top: 175px;
+	z-index: -1px;
+
+	img {
+		@extend %animate-hover;
+		position: absolute;
+		width: 85px;
+
+		&:nth-child(1) { 
+			top: -40px;
+			left: 0px;
+			animation-delay: 1.5s }
+		&:nth-child(2) { 
+			width: 70px;
+			top: 0px;
+			left: 160px;
+			animation-delay: 1s }
+		&:nth-child(3) { 
+			top: -150px;
+			left: 145px;
+			animation-delay: 2.5s }
+		&:nth-child(4) { 
+			width: 70px;
+			top: 7px;
+			right: 50px;
+			animation-delay: 3s }
+		&:nth-child(5) { 
+			top: -85px;
+			right: 150px;
+			animation-delay: 3s }
+		&:nth-child(6) { 
+			width: 70px;
+			top: -130px;
+			right: 0px;
+			animation-delay: 1s }
+		&:nth-child(7) { 
+			top: 0px;
+			right: 0px;
+			animation-delay: 4s }
+		&:nth-child(7) { 
+			width: 70px;
+			top: 0px;
+			right: 0px;
+			animation-delay: 2s }
+		&:nth-child(8) { 
+			top: -140px;
+			left: -20px;
+			width: 60px;
+			animation-delay: 3s }
+	}
 }
 
 // ------ Landing Page for Viral Loops
@@ -501,6 +604,7 @@ video.small {
 }
 
 footer {
+	z-index: 10;
 	background-color: #EF7449;
 	padding: 20px;
 

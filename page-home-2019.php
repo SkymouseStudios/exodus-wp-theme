@@ -57,11 +57,12 @@ get_header(); ?>
 		
 		<div class="post-content">
 
-			<?php get_template_part('includes/partials/section', 'default'); ?>
+			<?php exodus_home_section( 'default' ); ?>
 
 			<?php get_template_part('includes/partials/section', 'sign-up-callout'); ?>
+			
+			<?php exodus_home_section( 'nonprofit' ); ?>
 
-			<?php get_template_part('includes/partials/section', 'nonprofit'); ?>
 		</div><!-- end post-content -->
 	</article>
 

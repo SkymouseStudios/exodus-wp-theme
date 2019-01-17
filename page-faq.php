@@ -57,9 +57,13 @@ get_header(); ?>
 
 			<?php exodus_support_articles(); ?>
 		</div>
+
+
 	</article><!-- #post-<?php the_ID(); ?> -->
-	<?php exodus_home_promotion_tier('home_tier_three'); ?>
+
+	<?php exodus_home_section( 'nonprofit' ); ?>
 <?php endwhile; ?>
+
 </div>
 <?php get_footer(); ?>
 

@@ -43,8 +43,7 @@ get_header(); ?>
 			</div>
 		</div>
 	<?php } ?>
-    <?php require('partial-preview-email-signup.php'); ?>
-	<?php exodus_home_promotion_tier('home_tier_three'); ?>
+
 <?php endwhile; ?>
 </div>
 <?php get_footer(); ?>

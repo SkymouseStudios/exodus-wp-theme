@@ -236,14 +236,15 @@ function exodus_get_repeater_content( $key, $id=null, $fields=array() ) {
 }
 
 /**
- * Homepage tier generator.
+ * Homepage Section Generator. (Grabs the data from the homepage, instead of the current page)
  */
-function exodus_home_promotion_tier( $tier_name ) {
-	if (empty($tier_name)) return false;
+function exodus_home_section( $section_name ) {
+
+	if ( empty( $section_name ) ) return false;
 
 	$id = get_option('page_on_front');
 
-	include(dirname(__FILE__) . '/includes/partials/home-promotion-tier.php');
+	include( locate_template( 'includes/partials/section-' . $section_name . '.php', false ) ); 
 }
 
 /**
