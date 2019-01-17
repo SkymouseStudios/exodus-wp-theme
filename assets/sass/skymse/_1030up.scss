@@ -8,6 +8,12 @@ section {
 	margin: 40px auto 100px auto; 
 }
 
+// For the non-profit section
+.photo-wall {
+	position: absolute;
+	height: 0px;
+}
+
 .grid-three-quarters {
 	.ab {
 		grid-column: span 2;

@@ -227,7 +227,7 @@ hr.orange-line {
 	text-align: center;
 	height: 100px;
 	margin-top: 175px;
-	z-index: -1px;
+	z-index: -1;
 
 	img {
 		@extend %animate-hover;
@@ -245,12 +245,12 @@ hr.orange-line {
 			animation-delay: 1s }
 		&:nth-child(3) { 
 			top: -150px;
-			left: 145px;
+			left: 115px;
 			animation-delay: 2.5s }
 		&:nth-child(4) { 
 			width: 70px;
 			top: 7px;
-			right: 50px;
+			right: 80px;
 			animation-delay: 3s }
 		&:nth-child(5) { 
 			top: -85px;
