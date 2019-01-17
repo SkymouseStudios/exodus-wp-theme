@@ -1,6 +1,6 @@
 <?php 
-	$section_title = exodus_get_custom_field( 'section_title', $id );
-	$section_subtitle = exodus_get_custom_field( 'section_subtitle', $id );
+	$section_title = exodus_get_custom_field( 'section_title' , $id );
+	$section_subtitle = exodus_get_custom_field( 'section_subtitle' , $id );
 ?>
 <!-- Panel 3 (Repeat Sections) -->
 	
@@ -15,16 +15,15 @@
 	
 	<?php 
 
-	exodus_get_repeater_content('section', $id );
-
+	if( have_rows('section' , $id ) ):
  	// loop through the rows of data
-    while ( have_rows('section') ) : the_row(); 
-    	$img = $value['img']; 
-    	$icon = $value['icon'];
-    	$align = $value['align']; 
-    	$title = $value['title']; 
-    	$subhead = $value['subhead']; 
-    	$text = $value['text']; 
+    while ( have_rows('section' , $id ) ) : the_row();
+    	$img = get_sub_field('img'); 
+    	$icon = get_sub_field('icon');
+    	$align = get_sub_field('align'); 
+    	$title = get_sub_field('title'); 
+    	$subhead = get_sub_field('subhead'); 
+    	$text = get_sub_field('text'); 
     	?>
 
         <section class="section-panel grid-half pad section-<?php echo $align; ?>">
@@ -46,9 +45,7 @@
 				<img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt']; ?>" />
 			</div>
 		</section>
-
 <?php
     endwhile;
-	
 	endif;
 	?>

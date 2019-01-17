@@ -524,21 +524,12 @@ video.small {
 }
 
 .section-three-quotes {
-	width: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-bottom: 0px;
-	margin-top: 200px;
-	display: grid;
+	margin-top: 100px;
 	text-align: center;
-	-ms-flex-line-pack: justify;
-	align-content: space-between;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
 
 	img {
-		width: 150px;
-		margin-top: -100px;
+		width: 75px;
+		margin-top: -35px;
 		border-radius: 180px;
 	}
 
@@ -554,6 +545,7 @@ video.small {
 		color: $orange;
 		line-height: 1.2em;
 		font-weight: 700;
+		margin-top: 20px;
 		margin-bottom: 60px;
 	}
 

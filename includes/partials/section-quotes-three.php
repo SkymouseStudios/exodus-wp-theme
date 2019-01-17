@@ -2,7 +2,7 @@
 		
 <?php 
 if( have_rows('quote') ): ?>
-	<section class="section-three-quotes team-grid">
+	<section class="section-panel section-three-quotes team-grid">
 <?php  
  	// loop through the rows of data
     while ( have_rows('quote') ) : the_row(); 

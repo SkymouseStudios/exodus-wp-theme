@@ -30,9 +30,7 @@ get_header(); ?>
 
 			<?php // Show the button in the header
 				if ( $header_button_text ) { ?>
-				<a class="button button-orange" href="<?php echo $header_button_url; ?>">
-					<?php echo $header_button_text; ?>
-				<a>
+				<a class="button button-orange" href="<?php echo $header_button_url; ?>"><?php echo $header_button_text; ?></a>
 			<?php } ?>
 			
 		</div>
