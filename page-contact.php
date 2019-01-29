@@ -26,6 +26,9 @@ get_header(); ?>
                 <div class="small-12 medium-4 columns">
                     <p>Please check out the <a href="/support">Frequently Asked Questions</a> before sending us a message!</p>
                     <hr>
+                    <h4>Address</h4>
+                    <p>PO Box 10053<br>
+                    Fort Wayne, IN 46850</p>
                     <h4>Email</h4>
                     <a href="mailto:support@exodus90.com">support@exodus90.com</a><br>
                     <hr>

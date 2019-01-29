@@ -320,13 +320,6 @@
 		"opt": 1,
 		"q": 84
 		},
-	"/assets/img/Exodus-login-page.studio": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/exodus-wp-theme/assets/img/Exodus-login-page.studio",
-		"oF": 0
-		},
 	"/assets/img/facebook-letter-logo.png": {
 		"ft": 32768,
 		"iS": 20738,
@@ -852,12 +845,6 @@
 		"oAP": "/exodus-wp-theme/content.php",
 		"oF": 0
 		},
-	"/exodus-wp-theme": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/exodus-wp-theme/exodus-wp-theme",
-		"oF": 0
-		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1104,7 +1091,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/screenshot.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 569388122.92120194
+	"lastBuiltDate": 570492512.69562805
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

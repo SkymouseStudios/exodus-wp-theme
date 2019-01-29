@@ -45,11 +45,16 @@
     padding-bottom: 20px;
 }
 
-// used in buttons
+// used for nav buttons
 .gray-bg {
 	background-color: #6f6f6f;
 }
 
+.navigation-wrap .mobile-navigation ul li.gray-bg {
+	background-color: #6f6f6f;
+}
+
+// used in apple and google store download buttons
 .grow { 
 	transition: all .3s ease-in-out; 
 
@@ -58,7 +63,6 @@
 		box-shadow: 1px 1px 20px #6f6f6f33;
 	}
 }
-
 
 hr {
 	border: solid 3px #eaeaea;
