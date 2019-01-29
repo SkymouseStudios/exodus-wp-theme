@@ -1,5 +1,9 @@
 # Exodus 90 Theme - Changelog
 
+*Version 2.3.5 - Jan 29, 2019*
+
+- added contact form info
+
 *Version 2.3.4 - Jan 12, 2019*
 
 - added a class for lighter gray nav elements
