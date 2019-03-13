@@ -47,6 +47,12 @@ global $embed_magnific_js;
         });
     </script>
 <?php } ?>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
+    <script>
+      simpleslider.getSlider();
+    </script>
+    
     <script type="text/javascript">
         adroll_adv_id = "VWDY6XBY2NDX3CH6SSPVWP";
         adroll_pix_id = "FZXQISG4QZC3ZMYURIGT7K";

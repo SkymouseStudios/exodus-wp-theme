@@ -15,11 +15,12 @@
 		"uuidString": "D6E1AC06-5890-47EE-9043-40F077B605F6"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/.gitignore",
 		"oF": 0
@@ -33,6 +34,7 @@
 	"/404.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/404.php",
 		"oF": 0
@@ -40,6 +42,7 @@
 	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/archive.php",
 		"oF": 0
@@ -47,6 +50,7 @@
 	"/assets/assets": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/assets/assets",
 		"oF": 0
@@ -54,6 +58,7 @@
 	"/assets/css/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/assets/css/.gitkeep",
 		"oF": 0
@@ -91,6 +96,7 @@
 	"/assets/font/BebasNeue-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/assets/font/BebasNeue-webfont.eot",
 		"oF": 0
@@ -108,6 +114,7 @@
 	"/assets/font/BebasNeue-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/assets/font/BebasNeue-webfont.ttf",
 		"oF": 0
@@ -115,6 +122,7 @@
 	"/assets/font/BebasNeue-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/assets/font/BebasNeue-webfont.woff",
 		"oF": 0
@@ -122,6 +130,7 @@
 	"/assets/font/fontello.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/assets/font/fontello.eot",
 		"oF": 0
@@ -139,6 +148,7 @@
 	"/assets/font/fontello.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/assets/font/fontello.ttf",
 		"oF": 0
@@ -146,6 +156,7 @@
 	"/assets/font/fontello.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/assets/font/fontello.woff",
 		"oF": 0
@@ -153,6 +164,7 @@
 	"/assets/img/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/assets/img/.gitkeep",
 		"oF": 0
@@ -485,6 +497,7 @@
 		"q": 84
 		},
 	"/assets/js/index.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -495,6 +508,7 @@
 		"tS": 0
 		},
 	"/assets/js/input.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -505,6 +519,7 @@
 		"tS": 0
 		},
 	"/assets/js/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -515,6 +530,7 @@
 		"tS": 0
 		},
 	"/assets/js/vendor/magnific-popup/jquery.magnific-popup.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -525,6 +541,7 @@
 		"tS": 0
 		},
 	"/assets/js/vendor/masonry.pkgd.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -820,6 +837,259 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/exodus-wp-theme/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/simple-slider/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/simple-slider/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/simple-slider/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/simple-slider/dist/simpleslider.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/dist/simpleslider.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/simple-slider/dist/simpleslider.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/dist/simpleslider.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/simple-slider/examples/custom-ease-animation-example.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/custom-ease-animation-example.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/default-sliding-transition.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/default-sliding-transition.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/fading-transition.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/fading-transition.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/full-page-transition.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/full-page-transition.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/lightbox-integrated-example.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/lightbox-integrated-example.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/mask-sliding-transition.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/mask-sliding-transition.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/no-options.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/no-options.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/pause-slide-change-example.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/pause-slide-change-example.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/requirejs-example.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/requirejs-example.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/responsive-layout-example.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/responsive-layout-example.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/reverse-sliding-direction-example.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/reverse-sliding-direction-example.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/right-to-left-sliding-transition.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/right-to-left-sliding-transition.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/text-content-example.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/text-content-example.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/top-to-bottom-sliding-transition.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/top-to-bottom-sliding-transition.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/examples/touch-swipe-example.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/examples/touch-swipe-example.html",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/index.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/simple-slider/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/LICENSE",
+		"oF": 0
+		},
+	"/bower_components/simple-slider/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/simple-slider/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/simple-slider/src/simpleslider.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/src/simpleslider.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/simple-slider/webpack.config.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/exodus-wp-theme/bower_components/simple-slider/webpack.config.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/Changelog.md": {
 		"cB": 0,
 		"cS": 0,
@@ -828,6 +1098,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/Changelog.html",
 		"oF": 0,
@@ -841,6 +1112,7 @@
 	"/content.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/content.php",
 		"oF": 0
@@ -854,6 +1126,7 @@
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/footer.php",
 		"oF": 0
@@ -861,6 +1134,7 @@
 	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/functions.php",
 		"oF": 0
@@ -868,6 +1142,7 @@
 	"/functions/advanced-custom-field-export.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/functions/advanced-custom-field-export.php",
 		"oF": 0
@@ -875,6 +1150,7 @@
 	"/functions/advanced-custom-fields.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/functions/advanced-custom-fields.php",
 		"oF": 0
@@ -882,6 +1158,7 @@
 	"/header.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/header.php",
 		"oF": 0
@@ -889,6 +1166,7 @@
 	"/includes/admin.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/admin.php",
 		"oF": 0
@@ -896,6 +1174,7 @@
 	"/includes/partials/app-signup.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/partials/app-signup.php",
 		"oF": 0
@@ -903,6 +1182,7 @@
 	"/includes/partials/section-contact.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/partials/section-contact.php",
 		"oF": 0
@@ -910,6 +1190,7 @@
 	"/includes/partials/section-default.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/partials/section-default.php",
 		"oF": 0
@@ -917,6 +1198,7 @@
 	"/includes/partials/section-feature-grid.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/partials/section-feature-grid.php",
 		"oF": 0
@@ -924,6 +1206,7 @@
 	"/includes/partials/section-main-panel.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/partials/section-main-panel.php",
 		"oF": 0
@@ -931,6 +1214,7 @@
 	"/includes/partials/section-nonprofit.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/partials/section-nonprofit.php",
 		"oF": 0
@@ -938,6 +1222,7 @@
 	"/includes/partials/section-quotes-single.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/partials/section-quotes-single.php",
 		"oF": 0
@@ -945,6 +1230,7 @@
 	"/includes/partials/section-quotes-three.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/partials/section-quotes-three.php",
 		"oF": 0
@@ -952,6 +1238,7 @@
 	"/includes/partials/section-sign-up-callout.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/partials/section-sign-up-callout.php",
 		"oF": 0
@@ -959,6 +1246,7 @@
 	"/includes/utility.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/includes/utility.php",
 		"oF": 0
@@ -966,6 +1254,7 @@
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/index.php",
 		"oF": 0
@@ -973,6 +1262,7 @@
 	"/page-contact.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/page-contact.php",
 		"oF": 0
@@ -980,6 +1270,7 @@
 	"/page-faq.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/page-faq.php",
 		"oF": 0
@@ -987,6 +1278,7 @@
 	"/page-get-started.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/page-get-started.php",
 		"oF": 0
@@ -994,6 +1286,7 @@
 	"/page-home-2019.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/page-home-2019.php",
 		"oF": 0
@@ -1001,6 +1294,7 @@
 	"/page-landing.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/page-landing.php",
 		"oF": 0
@@ -1008,6 +1302,7 @@
 	"/page-media.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/page-media.php",
 		"oF": 0
@@ -1015,6 +1310,7 @@
 	"/page-parishes.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/page-parishes.php",
 		"oF": 0
@@ -1027,6 +1323,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/README.html",
 		"oF": 0,
@@ -1051,6 +1348,7 @@
 	"/search.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/search.php",
 		"oF": 0
@@ -1058,6 +1356,7 @@
 	"/searchform.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/searchform.php",
 		"oF": 0
@@ -1065,6 +1364,7 @@
 	"/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/sidebar.php",
 		"oF": 0
@@ -1072,6 +1372,7 @@
 	"/single.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exodus-wp-theme/single.php",
 		"oF": 0
@@ -1097,7 +1398,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/screenshot.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 570492763.81162298
+	"lastBuiltDate": 574188822.34333301
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1182,6 +1483,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -1201,6 +1508,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -1251,6 +1588,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -1284,10 +1624,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -2236,6 +2582,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -2898,6 +3248,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2919,6 +3270,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -2941,7 +3293,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2980,6 +3333,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2989,7 +3343,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3010,7 +3365,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3039,7 +3395,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -3127,16 +3484,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -3148,14 +3509,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3178,6 +3539,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -3203,10 +3568,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -3215,13 +3576,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -3233,6 +3594,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -3255,13 +3620,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -3270,10 +3635,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -3297,6 +3658,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -3331,6 +3696,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -3340,6 +3709,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3367,15 +3740,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": "/exodus-wp-theme"
 	},
