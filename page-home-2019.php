@@ -11,6 +11,8 @@ get_header(); ?>
 
 	<?php
 		$guest_logo = get_field('guest_logo');
+		$nonprofit_headline = exodus_get_custom_field( 'nonprofit_headline', $id );
+		$nonprofit_subhead = exodus_get_custom_field( 'nonprofit_subhead', $id );
 	?>
 	
 	<!-- Panel 1 Header -->
@@ -73,8 +75,18 @@ get_header(); ?>
 						endwhile;
 						endif; ?>
 			</div>
-			
-			<?php exodus_home_section( 'nonprofit' ); ?>
+
+			<section class="section-panel">
+
+	
+				<div class="the-world"></div>
+
+				<div class="pad text-center">
+					<h2><?php echo $nonprofit_headline; ?></h2>
+					<p class="subheading"><?php echo $nonprofit_subhead; ?></p>
+				</div>
+			</section>	
+		
 
 		</div><!-- end post-content -->
 	</article>
